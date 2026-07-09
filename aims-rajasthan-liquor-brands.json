@@ -1,0 +1,5132 @@
+[
+  {
+    "name": "AMADOSS HERO LAGER",
+    "cat": "beer",
+    "mrpBot": 230,
+    "mrpHalf": 135,
+    "mrpNips": 0,
+    "rateBot": 230,
+    "rateHalf": 135,
+    "rateNips": 0
+  },
+  {
+    "name": "AMADOSS PHANTOM STRONG",
+    "cat": "beer",
+    "mrpBot": 245,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 245,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "BLACK PEARL PREMIUM SUPER STRONG BEER",
+    "cat": "beer",
+    "mrpBot": 160,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 160,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "BUDWEISER GLOBAL KING OF BEERS",
+    "cat": "beer",
+    "mrpBot": 240,
+    "mrpHalf": 135,
+    "mrpNips": 0,
+    "rateBot": 240,
+    "rateHalf": 135,
+    "rateNips": 0
+  },
+  {
+    "name": "BUDWEISER MAGNUM GLOBAL KING OF BEERS",
+    "cat": "beer",
+    "mrpBot": 280,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 280,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Bira 91 Blonde Summer Lager Beer.",
+    "cat": "beer",
+    "mrpBot": 240,
+    "mrpHalf": 130,
+    "mrpNips": 0,
+    "rateBot": 240,
+    "rateHalf": 130,
+    "rateNips": 0
+  },
+  {
+    "name": "Bira 91 Gold Wheat Strong Beer.",
+    "cat": "beer",
+    "mrpBot": 240,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 240,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Bira 91 RISE Rice Strong Lager Beer",
+    "cat": "beer",
+    "mrpBot": 230,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 230,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Bira 91 Superfresh Natural White Beer",
+    "cat": "beer",
+    "mrpBot": 0,
+    "mrpHalf": 175,
+    "mrpNips": 0,
+    "rateBot": 0,
+    "rateHalf": 175,
+    "rateNips": 0
+  },
+  {
+    "name": "Black Fort Super Strong Beer Serve Chilled",
+    "cat": "beer",
+    "mrpBot": 175,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 175,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Budweiser Magnum Premium International Beer",
+    "cat": "beer",
+    "mrpBot": 280,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 280,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Budweiser Premium International Beer",
+    "cat": "beer",
+    "mrpBot": 240,
+    "mrpHalf": 135,
+    "mrpNips": 0,
+    "rateBot": 240,
+    "rateHalf": 135,
+    "rateNips": 0
+  },
+  {
+    "name": "CARLSBERG SMOOTH PREMIUM MILD LAGER",
+    "cat": "beer",
+    "mrpBot": 0,
+    "mrpHalf": 120,
+    "mrpNips": 0,
+    "rateBot": 0,
+    "rateHalf": 120,
+    "rateNips": 0
+  },
+  {
+    "name": "CORONA EXTRA SUPER PREMIUM BEER",
+    "cat": "beer",
+    "mrpBot": 0,
+    "mrpHalf": 210,
+    "mrpNips": 0,
+    "rateBot": 0,
+    "rateHalf": 210,
+    "rateNips": 0
+  },
+  {
+    "name": "Carlsberg Elephant Premium Strong Danish Beer",
+    "cat": "beer",
+    "mrpBot": 245,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 245,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Carlsberg Smooth Super Premium Mild Lager Beer",
+    "cat": "beer",
+    "mrpBot": 235,
+    "mrpHalf": 130,
+    "mrpNips": 0,
+    "rateBot": 235,
+    "rateHalf": 130,
+    "rateNips": 0
+  },
+  {
+    "name": "ERDINGER WEIBBIER PREMIUM BEER",
+    "cat": "beer",
+    "mrpBot": 0,
+    "mrpHalf": 400,
+    "mrpNips": 0,
+    "rateBot": 0,
+    "rateHalf": 400,
+    "rateNips": 0
+  },
+  {
+    "name": "ERDINGER WEIBBIER",
+    "cat": "beer",
+    "mrpBot": 0,
+    "mrpHalf": 335,
+    "mrpNips": 0,
+    "rateBot": 0,
+    "rateHalf": 335,
+    "rateNips": 0
+  },
+  {
+    "name": "FOSTERS GOLD SELECT STRONG BEER",
+    "cat": "beer",
+    "mrpBot": 175,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 175,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "GODFATHER SUPER 8 ORIGINAL STRONG BEER",
+    "cat": "beer",
+    "mrpBot": 195,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 195,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "GODFATHER THE LEGENDARY ORIGINAL STRONG BEER",
+    "cat": "beer",
+    "mrpBot": 175,
+    "mrpHalf": 90,
+    "mrpNips": 0,
+    "rateBot": 175,
+    "rateHalf": 90,
+    "rateNips": 0
+  },
+  {
+    "name": "HEINEKEN LAGER BEER",
+    "cat": "beer",
+    "mrpBot": 275,
+    "mrpHalf": 160,
+    "mrpNips": 0,
+    "rateBot": 275,
+    "rateHalf": 160,
+    "rateNips": 0
+  },
+  {
+    "name": "HEINEKEN SILVER 100% MALT LAGER BEER",
+    "cat": "beer",
+    "mrpBot": 320,
+    "mrpHalf": 180,
+    "mrpNips": 0,
+    "rateBot": 320,
+    "rateHalf": 180,
+    "rateNips": 0
+  },
+  {
+    "name": "Hoegaarden Belgian Blanche",
+    "cat": "beer",
+    "mrpBot": 0,
+    "mrpHalf": 210,
+    "mrpNips": 0,
+    "rateBot": 0,
+    "rateHalf": 210,
+    "rateNips": 0
+  },
+  {
+    "name": "Hunter Refreshing Strong Natural Wheat Beer",
+    "cat": "beer",
+    "mrpBot": 200,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 200,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "KING FISHER STRONG PREMIUM BEER",
+    "cat": "beer",
+    "mrpBot": 175,
+    "mrpHalf": 95,
+    "mrpNips": 0,
+    "rateBot": 175,
+    "rateHalf": 95,
+    "rateNips": 0
+  },
+  {
+    "name": "KINGFISHER POWER STRONG BEER",
+    "cat": "beer",
+    "mrpBot": 175,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 175,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "KINGFISHER PREMIUM LAGER BEER",
+    "cat": "beer",
+    "mrpBot": 165,
+    "mrpHalf": 95,
+    "mrpNips": 0,
+    "rateBot": 165,
+    "rateHalf": 95,
+    "rateNips": 0
+  },
+  {
+    "name": "KOLT CLASSIC SUPERIOR STRONG BEER",
+    "cat": "beer",
+    "mrpBot": 165,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 165,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Kingfisher Ultra Max Super Premium Strong Beer",
+    "cat": "beer",
+    "mrpBot": 250,
+    "mrpHalf": 145,
+    "mrpNips": 0,
+    "rateBot": 250,
+    "rateHalf": 145,
+    "rateNips": 0
+  },
+  {
+    "name": "Kingfisher Ultra Premium Lager Beer",
+    "cat": "beer",
+    "mrpBot": 240,
+    "mrpHalf": 130,
+    "mrpNips": 0,
+    "rateBot": 240,
+    "rateHalf": 130,
+    "rateNips": 0
+  },
+  {
+    "name": "Lone Wolf Wild Premium Strong",
+    "cat": "beer",
+    "mrpBot": 245,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 245,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Original Bira 91 Boom Super Strong Beer",
+    "cat": "beer",
+    "mrpBot": 180,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 180,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Power Cool Strong Beer",
+    "cat": "beer",
+    "mrpBot": 160,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 160,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "STOK LAGER FINE BEER",
+    "cat": "beer",
+    "mrpBot": 170,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 170,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "STOK STRONG FINE BEER",
+    "cat": "beer",
+    "mrpBot": 175,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 175,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Six Fields Blanche Original Wheat Beer",
+    "cat": "beer",
+    "mrpBot": 0,
+    "mrpHalf": 175,
+    "mrpNips": 0,
+    "rateBot": 0,
+    "rateHalf": 175,
+    "rateNips": 0
+  },
+  {
+    "name": "Six Fields Brute The Majestic Beer",
+    "cat": "beer",
+    "mrpBot": 265,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 265,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Six Fields Cult Original Strong Wheat Beer",
+    "cat": "beer",
+    "mrpBot": 280,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 280,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Six Fields Pilsner Best Hops Beer",
+    "cat": "beer",
+    "mrpBot": 240,
+    "mrpHalf": 130,
+    "mrpNips": 0,
+    "rateBot": 240,
+    "rateHalf": 130,
+    "rateNips": 0
+  },
+  {
+    "name": "THUNDERBOLT GOLD PREMIUM SUPER STRONG BEER",
+    "cat": "beer",
+    "mrpBot": 165,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 165,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "TSINGTAO IMPORTED PREMIUM LAGER",
+    "cat": "beer",
+    "mrpBot": 0,
+    "mrpHalf": 285,
+    "mrpNips": 0,
+    "rateBot": 0,
+    "rateHalf": 285,
+    "rateNips": 0
+  },
+  {
+    "name": "TUBORG CLASSIC GOLD STRONG BEER",
+    "cat": "beer",
+    "mrpBot": 190,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 190,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "TUBORG PREMIUM MILD BEER",
+    "cat": "beer",
+    "mrpBot": 165,
+    "mrpHalf": 95,
+    "mrpNips": 0,
+    "rateBot": 165,
+    "rateHalf": 95,
+    "rateNips": 0
+  },
+  {
+    "name": "TUBORG STRONG BEER",
+    "cat": "beer",
+    "mrpBot": 175,
+    "mrpHalf": 95,
+    "mrpNips": 0,
+    "rateBot": 175,
+    "rateHalf": 95,
+    "rateNips": 0
+  },
+  {
+    "name": "Tuborg Classic Premium Scotch Malt Beer",
+    "cat": "beer",
+    "mrpBot": 245,
+    "mrpHalf": 145,
+    "mrpNips": 0,
+    "rateBot": 245,
+    "rateHalf": 145,
+    "rateNips": 0
+  },
+  {
+    "name": "Tuborg Strong Beer.",
+    "cat": "beer",
+    "mrpBot": 175,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 175,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Woodpecker Natural Lager Crest Premium Strong Beer",
+    "cat": "beer",
+    "mrpBot": 295,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 295,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Woodpecker Natural Lager Glide Premium Mild Beer",
+    "cat": "beer",
+    "mrpBot": 255,
+    "mrpHalf": 140,
+    "mrpNips": 0,
+    "rateBot": 255,
+    "rateHalf": 140,
+    "rateNips": 0
+  },
+  {
+    "name": "ANGURI PLAIN CL (ENA)",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "ANGURI STRONG CL (ENA)",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 63,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 63
+  },
+  {
+    "name": "APPLE PUNCH STRONG C.L.",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 68,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 68
+  },
+  {
+    "name": "BAGH PLAIN C.L. ENA",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "BAGH SAUNF PLAIN C.L.- ENA",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "BAGH SAUNF STRONG C.L. - ENA",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 68,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 68
+  },
+  {
+    "name": "BINNIES NIMBOO DESHI SHARAB-ENA BASED-50 UP Nips(PET)",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "BINNIES NIMBOO STRONG DESHI MADIRA- ENA BASED 40 UP",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 68,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 68
+  },
+  {
+    "name": "BINNIES PLAIN DESHI SHARAB- ENA BASED",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "BINNIES SAUNFI STRONG DESHI MADIRA",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 68,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 68
+  },
+  {
+    "name": "BINNIES- ENA BASED",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 63,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 63
+  },
+  {
+    "name": "C.L.PLAIN LION ENA",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "C.L.PLAIN NIMBU AGRI SPECIAL 50 UP ENA",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "C.L.Plain ENA 50 UP",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "CARYA DHOL DHAMAKA",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "CARYA JHUMROO ENA STRONG",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 63,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 63
+  },
+  {
+    "name": "CARYA JHUMROO",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "CARYA NIMBOO MASTANA ENA STRONG",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 63,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 63
+  },
+  {
+    "name": "CARYA NIMBOO MASTANA ENA",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "CARYA PREET",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "CHEETA PLAIN C.L. (ENA)",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "CHEETA STRNG C.L. (ENA)",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 63,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 63
+  },
+  {
+    "name": "CHIRMI SAUNF DESHI MADIRA (ENA)",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "CHIRMI SAUNF STRONG DESHI MADIRA (ENA)",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 68,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 68
+  },
+  {
+    "name": "DESI THAATH ENA",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "DHOLA MARU C.L. PLAIN (ENA)",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "DHOLA MARU STRONG C.L. (ENA)",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 63,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 63
+  },
+  {
+    "name": "DM PLAIN C.L. (ENA)",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "DM STRONG C.L. (ENA)",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 63,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 63
+  },
+  {
+    "name": "Fresh Malta Strong Country Liquor.",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 68,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 68
+  },
+  {
+    "name": "GANGANAGER NO.1 STRONG C.L. (ENA)",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 63,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 63
+  },
+  {
+    "name": "GHOOMAR C.L. ENA BASE",
+    "cat": "desi",
+    "mrpBot": 231,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 231,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "GHOOMAR PREMIUM DESHI SHARAB ENA BASE",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "GHOOMAR PREMIUM STRONG DESHI MADIRA ENA BASE",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 63,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 63
+  },
+  {
+    "name": "GHOOMAR STRONG C.L. (ENA)",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 63,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 63
+  },
+  {
+    "name": "GHOONGHAT C.L. ENA",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "GHOONGHROO STRONG C.L. ENA",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 63,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 63
+  },
+  {
+    "name": "GLOBUS NIMBOO SPECIAL C.L. (ENA)",
+    "cat": "desi",
+    "mrpBot": 231,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 231,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "GLOBUS NIMBOO SPECIAL STRONG C.L. (ENA)",
+    "cat": "desi",
+    "mrpBot": 262,
+    "mrpHalf": 0,
+    "mrpNips": 63,
+    "rateBot": 262,
+    "rateHalf": 0,
+    "rateNips": 63
+  },
+  {
+    "name": "GLOBUS PLAIN DESI MADIRA (ENA)",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "GLOBUS PLAIN STRONG DESI MADIRA (ENA)",
+    "cat": "desi",
+    "mrpBot": 262,
+    "mrpHalf": 0,
+    "mrpNips": 63,
+    "rateBot": 262,
+    "rateHalf": 0,
+    "rateNips": 63
+  },
+  {
+    "name": "GLOBUS SHER DESHI SHARAB ENA BASE",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "GLOBUS SHER STRONG DESHI MADIRA ENA BASE",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 63,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 63
+  },
+  {
+    "name": "Gajban Nakhrali Strong C.L.",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 68,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 68
+  },
+  {
+    "name": "Ganganager No.1 C.L (ENA)",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "Ghoonghroo Plain C.L. ENA",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "Gulab C.L ENA 50 UP",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "Gulab ENA Based Strong 40 UP",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 63,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 63
+  },
+  {
+    "name": "HEER RANJHA C.L. (ENA)",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "HEER RANJHA STRONG C.L. (ENA)",
+    "cat": "desi",
+    "mrpBot": 262,
+    "mrpHalf": 0,
+    "mrpNips": 63,
+    "rateBot": 262,
+    "rateHalf": 0,
+    "rateNips": 63
+  },
+  {
+    "name": "HERO ENA",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "HERO",
+    "cat": "desi",
+    "mrpBot": 262,
+    "mrpHalf": 0,
+    "mrpNips": 63,
+    "rateBot": 262,
+    "rateHalf": 0,
+    "rateNips": 63
+  },
+  {
+    "name": "HR PLAIN C.L. (ENA)",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "HR STRONG C.L. (ENA)",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 63,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 63
+  },
+  {
+    "name": "Heera Panna Deshi Saada Madira",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "Heera Panna Strong Deshi Saada Madira",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 63,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 63
+  },
+  {
+    "name": "JANBAAZ KHATTA NIMBU STRONG DESI MADIRA (ENA)",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 68,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 68
+  },
+  {
+    "name": "JANBAAZ PLAIN C.L (ENA)",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "JUGNU PLANE DESI SADA MADIRA -ENA",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "JUGNU PLANE STRONG CL -ENA",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 63,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 63
+  },
+  {
+    "name": "KACHCHA NIMBUDA CL PLAIN (ENA)",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "KACHCHA NIMBUDA STRONG CL (ENA)",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 68,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 68
+  },
+  {
+    "name": "KESARIYO STRONG C.L. ENA",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 68,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 68
+  },
+  {
+    "name": "Karishma strong CL",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 68,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 68
+  },
+  {
+    "name": "Kesar kasturi",
+    "cat": "desi",
+    "mrpBot": 673,
+    "mrpHalf": 0,
+    "mrpNips": 219,
+    "rateBot": 673,
+    "rateHalf": 0,
+    "rateNips": 219
+  },
+  {
+    "name": "LAILA MAJNU STRONG DESI MADIRA",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 63,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 63
+  },
+  {
+    "name": "LOVELY LIME NIMBUDA STRONG C.L. (ENA)",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 63,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 63
+  },
+  {
+    "name": "MOOMAL STRONG C.L.",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 68,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 68
+  },
+  {
+    "name": "NIMBOO 50 UP",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "NIMBU TAJA CL STRONG",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 63,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 63
+  },
+  {
+    "name": "NIMBU TAJA ENA BASE",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "NIMBUDA C.L. PLAIN (ENA)",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "Nimbu Vintage Special Plain C.L. (ENA)",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "Nimbu Vintage Special Strong C.L. (ENA)",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 68,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 68
+  },
+  {
+    "name": "PRINCE C.L. 50 UP (ENA)",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "Plain ENA Based Strong, 40 UP",
+    "cat": "desi",
+    "mrpBot": 262,
+    "mrpHalf": 0,
+    "mrpNips": 63,
+    "rateBot": 262,
+    "rateHalf": 0,
+    "rateNips": 63
+  },
+  {
+    "name": "RAJASTHANI NIMBOO SPECIAL C.L. ENA",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "RAJASTHANI NIMBOO SPECIAL STRONG C.L. ENA",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 63,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 63
+  },
+  {
+    "name": "RANA ENA 50 UP PET",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "RANA STRONG C.L. ENA BASE",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 63,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 63
+  },
+  {
+    "name": "RANGEELA STRONG C.L. (ENA)",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 63,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 63
+  },
+  {
+    "name": "Rangeela Plan C.L. (ENA)",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "SHAHI C.L. (ENA)",
+    "cat": "desi",
+    "mrpBot": 231,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 231,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "SHAHI SHANAI PLAIN CL (ENA)",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "SHAHI SHANAI STRONG CL (ENA)",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 63,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 63
+  },
+  {
+    "name": "SHAHI STRONG C.L. (ENA)",
+    "cat": "desi",
+    "mrpBot": 262,
+    "mrpHalf": 0,
+    "mrpNips": 63,
+    "rateBot": 262,
+    "rateHalf": 0,
+    "rateNips": 63
+  },
+  {
+    "name": "SONFY STRONG C.L. (ENA)",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 68,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 68
+  },
+  {
+    "name": "STRONG C.L. LION ENA",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 68,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 68
+  },
+  {
+    "name": "STRONG C.L.NIMBU AGRI SPECIAL 40 UP ENA",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 63,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 63
+  },
+  {
+    "name": "Shahi Nimbu Plain CL (ENA)",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "Shahi Nimbu Strong C.L (ENA)",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 63,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 63
+  },
+  {
+    "name": "Srasti Liquors Nimboo Deshi Madira",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "Srasti Liquors Nimboo Strong Deshi Madira",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 63,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 63
+  },
+  {
+    "name": "Srasti Liquors Saunf Deshi Madira",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "Srasti Liquors Saunf Strong Deshi Madira",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 63,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 63
+  },
+  {
+    "name": "THAR DESHI SADA SARAB",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "THAUMAR PLAIN CL",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "THAUMAR STRONG CL",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 63,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 63
+  },
+  {
+    "name": "TIGER C.L ENA",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "VDL ORANGE PLAIN C.L. (ENA)",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "VDL ORANGE STRONG C.L. (ENA)",
+    "cat": "desi",
+    "mrpBot": 262,
+    "mrpHalf": 0,
+    "mrpNips": 68,
+    "rateBot": 262,
+    "rateHalf": 0,
+    "rateNips": 68
+  },
+  {
+    "name": "VRV NIMBOO MASTANA ENA STRONG",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 63,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 63
+  },
+  {
+    "name": "VRV NIMBOO MASTANA ENA",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "VRV NOORI SANUFI ENA STRONG",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 68,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 68
+  },
+  {
+    "name": "VRV NOORI SANUFI ENA",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 56,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 56
+  },
+  {
+    "name": "White Swan Vodka Orange",
+    "cat": "desi",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 85,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 85
+  },
+  {
+    "name": "100 PIPERS BLENDED MALT SCOTCH WHISKY",
+    "cat": "whisky",
+    "mrpBot": 2405,
+    "mrpHalf": 0,
+    "mrpNips": 630,
+    "rateBot": 2405,
+    "rateHalf": 0,
+    "rateNips": 630
+  },
+  {
+    "name": "100 PIPERS BLENDED SCOTCH WHISKY AGED 12 YEARS.",
+    "cat": "whisky",
+    "mrpBot": 2635,
+    "mrpHalf": 0,
+    "mrpNips": 640,
+    "rateBot": 2635,
+    "rateHalf": 0,
+    "rateNips": 640
+  },
+  {
+    "name": "100 PIPERS EXQUISITE BLENDED SCOTCH WHISKY",
+    "cat": "whisky",
+    "mrpBot": 2180,
+    "mrpHalf": 1095,
+    "mrpNips": 540,
+    "rateBot": 2180,
+    "rateHalf": 1095,
+    "rateNips": 540
+  },
+  {
+    "name": "1800 COCONUT LIQUEUR",
+    "cat": "other",
+    "mrpBot": 8465,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 8465,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "1965 SPIRIT OF VICTORY RARE XXX RUM",
+    "cat": "rum",
+    "mrpBot": 620,
+    "mrpHalf": 310,
+    "mrpNips": 155,
+    "rateBot": 620,
+    "rateHalf": 310,
+    "rateNips": 155
+  },
+  {
+    "name": "8 PM PREMIUM BLACK EXQUISITE WHISKY",
+    "cat": "whisky",
+    "mrpBot": 730,
+    "mrpHalf": 365,
+    "mrpNips": 175,
+    "rateBot": 730,
+    "rateHalf": 365,
+    "rateNips": 175
+  },
+  {
+    "name": "8 PM SPECIAL RARE WHISKY",
+    "cat": "whisky",
+    "mrpBot": 485,
+    "mrpHalf": 245,
+    "mrpNips": 120,
+    "rateBot": 485,
+    "rateHalf": 245,
+    "rateNips": 120
+  },
+  {
+    "name": "A.C. S.E.K.C. WHISKY",
+    "cat": "whisky",
+    "mrpBot": 470,
+    "mrpHalf": 240,
+    "mrpNips": 115,
+    "rateBot": 470,
+    "rateHalf": 240,
+    "rateNips": 115
+  },
+  {
+    "name": "ABSOLUT CITRON LEMON FLAVORED VODKA",
+    "cat": "vodka",
+    "mrpBot": 2155,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2155,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "ABSOLUT GRAPEFRUIT VODKA",
+    "cat": "vodka",
+    "mrpBot": 2360,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2360,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "ABSOLUT LIME FLAVORED VODKA",
+    "cat": "vodka",
+    "mrpBot": 2300,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2300,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "ABSOLUT MANDRIN MANDARIN FLAVORED VODKA",
+    "cat": "vodka",
+    "mrpBot": 2155,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2155,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "ABSOLUT VODKA RASPBERI",
+    "cat": "vodka",
+    "mrpBot": 2225,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2225,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "ABSOLUT VODKA",
+    "cat": "vodka",
+    "mrpBot": 1985,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1985,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "ADIRA MERLOT",
+    "cat": "other",
+    "mrpBot": 1270,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1270,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "AFTER DARK BLUE CLASSIC GRAIN WHISKY",
+    "cat": "whisky",
+    "mrpBot": 650,
+    "mrpHalf": 325,
+    "mrpNips": 160,
+    "rateBot": 650,
+    "rateHalf": 325,
+    "rateNips": 160
+  },
+  {
+    "name": "AG FORTY SEVEN CHARDONNAY",
+    "cat": "other",
+    "mrpBot": 1500,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1500,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "AG FORTY SEVEN MALBEC SHIRAZ",
+    "cat": "other",
+    "mrpBot": 1500,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1500,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "ALL SEASONS GOLDEN COLLECTION RESERVE WHISKY.",
+    "cat": "whisky",
+    "mrpBot": 730,
+    "mrpHalf": 365,
+    "mrpNips": 180,
+    "rateBot": 730,
+    "rateHalf": 365,
+    "rateNips": 180
+  },
+  {
+    "name": "ALL SEASONS SIR-E-TAJ GOLDEN COLLECTION RESERVE WHISKY",
+    "cat": "whisky",
+    "mrpBot": 825,
+    "mrpHalf": 415,
+    "mrpNips": 200,
+    "rateBot": 825,
+    "rateHalf": 415,
+    "rateNips": 200
+  },
+  {
+    "name": "ALTA VISTA VIVE CHARDONNAY WINE",
+    "cat": "other",
+    "mrpBot": 2590,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2590,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "ALTA VISTA VIVE MALBEC WINE",
+    "cat": "other",
+    "mrpBot": 2630,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2630,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "AMARA ARTISANAL PINK VODKA FROM THE HOUSE OF SAMSARA",
+    "cat": "vodka",
+    "mrpBot": 3425,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 3425,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "ANTARAA CABERNET SHIRAZ WINE",
+    "cat": "other",
+    "mrpBot": 1065,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1065,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "ANTIQUITY BLUE ULTRA PLATINUM WHISKY (PET)",
+    "cat": "whisky",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 275,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 275
+  },
+  {
+    "name": "ANTIQUITY BLUE ULTRA PLATINUM WHISKY",
+    "cat": "whisky",
+    "mrpBot": 1095,
+    "mrpHalf": 550,
+    "mrpNips": 270,
+    "rateBot": 1095,
+    "rateHalf": 550,
+    "rateNips": 270
+  },
+  {
+    "name": "ARGENTO ESTATE BOTTLED PINOT GRIGIO SC",
+    "cat": "other",
+    "mrpBot": 2200,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2200,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "ARGENTO MALBEC",
+    "cat": "other",
+    "mrpBot": 2150,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2150,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "ARTHAUS COLLECTIVE SPECIAL BLENDED MALT SCOTCH WHISKY",
+    "cat": "whisky",
+    "mrpBot": 4400,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 4400,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "ARTONS RESERVE PREMIUM BLENDED WHISKY",
+    "cat": "whisky",
+    "mrpBot": 1125,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1125,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "AVALON CABERNET SAUVIGNON RED WINE",
+    "cat": "other",
+    "mrpBot": 3455,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 3455,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Albert Bichot Chateau D Orson Cotes du Rhone Rouge Wine",
+    "cat": "other",
+    "mrpBot": 2820,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2820,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Amrut Amalgam Malt Whisky.",
+    "cat": "whisky",
+    "mrpBot": 3940,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 3940,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Amrut Fusion Single Malt Whisky",
+    "cat": "whisky",
+    "mrpBot": 4290,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 4290,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Amrut Nilgiris Indian Dry Gin",
+    "cat": "gin",
+    "mrpBot": 2085,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2085,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Amrut Palace Reserve Single Malt Whisky",
+    "cat": "whisky",
+    "mrpBot": 9835,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 9835,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Amrut Prestige Blended Malt Whisky",
+    "cat": "whisky",
+    "mrpBot": 625,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 625,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Amrut Two indies Rum",
+    "cat": "rum",
+    "mrpBot": 1460,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1460,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Anytime Rare Premium Whisky",
+    "cat": "whisky",
+    "mrpBot": 595,
+    "mrpHalf": 300,
+    "mrpNips": 150,
+    "rateBot": 595,
+    "rateHalf": 300,
+    "rateNips": 150
+  },
+  {
+    "name": "Avalon Chardonnay White Wine",
+    "cat": "other",
+    "mrpBot": 3455,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 3455,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "B15 BROTHERS & CO. PREMIER BLENDED WHISKY",
+    "cat": "whisky",
+    "mrpBot": 730,
+    "mrpHalf": 365,
+    "mrpNips": 180,
+    "rateBot": 730,
+    "rateHalf": 365,
+    "rateNips": 180
+  },
+  {
+    "name": "BACARDI 8 RESERVA OCHO RUM",
+    "cat": "rum",
+    "mrpBot": 3045,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 3045,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "BACARDI ANEJO CUATRO 4 YEARS GOLD RUM",
+    "cat": "rum",
+    "mrpBot": 2660,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2660,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "BACARDI CARTA BLANCA PRESTIGE SUPERIOR WHITE RUM",
+    "cat": "rum",
+    "mrpBot": 1020,
+    "mrpHalf": 520,
+    "mrpNips": 255,
+    "rateBot": 1020,
+    "rateHalf": 520,
+    "rateNips": 255
+  },
+  {
+    "name": "BACARDI CARTA BLANCA SUPERIOR WHITE RUM",
+    "cat": "rum",
+    "mrpBot": 1020,
+    "mrpHalf": 520,
+    "mrpNips": 255,
+    "rateBot": 1020,
+    "rateHalf": 520,
+    "rateNips": 255
+  },
+  {
+    "name": "BACARDI GINGER PRESTIGE ORIGINAL GINGER RUM",
+    "cat": "rum",
+    "mrpBot": 1095,
+    "mrpHalf": 550,
+    "mrpNips": 270,
+    "rateBot": 1095,
+    "rateHalf": 550,
+    "rateNips": 270
+  },
+  {
+    "name": "BACARDI LIMON ORIGINAL CITRUS RUM",
+    "cat": "rum",
+    "mrpBot": 1095,
+    "mrpHalf": 550,
+    "mrpNips": 270,
+    "rateBot": 1095,
+    "rateHalf": 550,
+    "rateNips": 270
+  },
+  {
+    "name": "BACARDI LIMON PRESTIGE ORIGINAL CITRUS RUM",
+    "cat": "rum",
+    "mrpBot": 1095,
+    "mrpHalf": 550,
+    "mrpNips": 270,
+    "rateBot": 1095,
+    "rateHalf": 550,
+    "rateNips": 270
+  },
+  {
+    "name": "BACARDI MANGO CHILLI PRESTIGE ORIGINAL MANGO CHILLI RUM",
+    "cat": "rum",
+    "mrpBot": 1095,
+    "mrpHalf": 550,
+    "mrpNips": 270,
+    "rateBot": 1095,
+    "rateHalf": 550,
+    "rateNips": 270
+  },
+  {
+    "name": "BACARDI PRESTIGE + CRANBERRY FLAVOURED",
+    "cat": "other",
+    "mrpBot": 0,
+    "mrpHalf": 120,
+    "mrpNips": 0,
+    "rateBot": 0,
+    "rateHalf": 120,
+    "rateNips": 0
+  },
+  {
+    "name": "BACARDI PRESTIGE + LEMONADE FLAVOURED",
+    "cat": "other",
+    "mrpBot": 0,
+    "mrpHalf": 120,
+    "mrpNips": 0,
+    "rateBot": 0,
+    "rateHalf": 120,
+    "rateNips": 0
+  },
+  {
+    "name": "BACARDI PRESTIGE + ORANGE FLAVOURED",
+    "cat": "other",
+    "mrpBot": 0,
+    "mrpHalf": 120,
+    "mrpNips": 0,
+    "rateBot": 0,
+    "rateHalf": 120,
+    "rateNips": 0
+  },
+  {
+    "name": "BACARDI SUPER PREMIUM + CRANBERRY",
+    "cat": "other",
+    "mrpBot": 0,
+    "mrpHalf": 120,
+    "mrpNips": 0,
+    "rateBot": 0,
+    "rateHalf": 120,
+    "rateNips": 0
+  },
+  {
+    "name": "BACARDI SUPER PREMIUM + LEMONADE",
+    "cat": "other",
+    "mrpBot": 0,
+    "mrpHalf": 120,
+    "mrpNips": 0,
+    "rateBot": 0,
+    "rateHalf": 120,
+    "rateNips": 0
+  },
+  {
+    "name": "BACARDI SUPER PREMIUM + ORANGE",
+    "cat": "other",
+    "mrpBot": 0,
+    "mrpHalf": 120,
+    "mrpNips": 0,
+    "rateBot": 0,
+    "rateHalf": 120,
+    "rateNips": 0
+  },
+  {
+    "name": "BACKBENCHER ADORABLE BLENDED WHISKY",
+    "cat": "whisky",
+    "mrpBot": 1035,
+    "mrpHalf": 0,
+    "mrpNips": 255,
+    "rateBot": 1035,
+    "rateHalf": 0,
+    "rateNips": 255
+  },
+  {
+    "name": "BAGPIPER CLASSIC WHISKY",
+    "cat": "whisky",
+    "mrpBot": 475,
+    "mrpHalf": 240,
+    "mrpNips": 115,
+    "rateBot": 475,
+    "rateHalf": 240,
+    "rateNips": 115
+  },
+  {
+    "name": "BAILEYS THE ORIGINAL IRISH CREAM",
+    "cat": "other",
+    "mrpBot": 2750,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2750,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "BALLANTINE S AGED 12 YEARS BLENDED SCOTCH WHISKY",
+    "cat": "whisky",
+    "mrpBot": 3320,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 3320,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "BALLANTINES FINEST BLENDED SCOTCH WHISKY..",
+    "cat": "whisky",
+    "mrpBot": 0,
+    "mrpHalf": 900,
+    "mrpNips": 0,
+    "rateBot": 0,
+    "rateHalf": 900,
+    "rateNips": 0
+  },
+  {
+    "name": "BARTON AND GUESTIER CUVEE SPECIALE ROUGE WINE",
+    "cat": "other",
+    "mrpBot": 1785,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1785,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "BARTON AND GUESTIER VEUVE DU VERNAY ICE BLANC SPARKLING WINE",
+    "cat": "other",
+    "mrpBot": 3250,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 3250,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "BATCH 9 SPECIAL CASK RESERVE EDITION WHISKY",
+    "cat": "whisky",
+    "mrpBot": 605,
+    "mrpHalf": 305,
+    "mrpNips": 150,
+    "rateBot": 605,
+    "rateHalf": 305,
+    "rateNips": 150
+  },
+  {
+    "name": "BEEFEATER LONDON DRY GIN",
+    "cat": "gin",
+    "mrpBot": 1830,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1830,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "BEJOIS XO BRANDY",
+    "cat": "other",
+    "mrpBot": 1125,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1125,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "BELLA SHIRAZ ROSE WINE",
+    "cat": "other",
+    "mrpBot": 910,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 910,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "BELUGA TRANSATLANTIC RACING VODKA",
+    "cat": "vodka",
+    "mrpBot": 7950,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 7950,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "BIG BEN LONDON DELUXE GIN",
+    "cat": "gin",
+    "mrpBot": 635,
+    "mrpHalf": 325,
+    "mrpNips": 160,
+    "rateBot": 635,
+    "rateHalf": 325,
+    "rateNips": 160
+  },
+  {
+    "name": "BLACK AND WHITE BLENDED SCOTCH WHISKY",
+    "cat": "whisky",
+    "mrpBot": 1980,
+    "mrpHalf": 0,
+    "mrpNips": 520,
+    "rateBot": 1980,
+    "rateHalf": 0,
+    "rateNips": 520
+  },
+  {
+    "name": "BLACK BY BACARDI PRESTIGE ORIGINAL PREMIUM CRAFTED RUM",
+    "cat": "rum",
+    "mrpBot": 700,
+    "mrpHalf": 350,
+    "mrpNips": 175,
+    "rateBot": 700,
+    "rateHalf": 350,
+    "rateNips": 175
+  },
+  {
+    "name": "BLACK DOG CENTENARY BLACK RESERVE AGED AND RARE BLENDED SCOTCH WHISKY CELEBRATION EDITION",
+    "cat": "whisky",
+    "mrpBot": 2125,
+    "mrpHalf": 1065,
+    "mrpNips": 530,
+    "rateBot": 2125,
+    "rateHalf": 1065,
+    "rateNips": 530
+  },
+  {
+    "name": "BLACK TOWER CLUB EDITION RIESLING WINE",
+    "cat": "other",
+    "mrpBot": 2795,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2795,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "BLACK TOWER CLUB EDITION ST. LAURENT WINE",
+    "cat": "other",
+    "mrpBot": 2795,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2795,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "BLACK TOWER DORNFELDER PINOT NOIR WINE",
+    "cat": "other",
+    "mrpBot": 1855,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1855,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "BLANCA CHENIN BLANC",
+    "cat": "other",
+    "mrpBot": 910,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 910,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "BLENDERS PRIDE FOUR ELEMENTS PREMIUM WHISKY",
+    "cat": "whisky",
+    "mrpBot": 1165,
+    "mrpHalf": 590,
+    "mrpNips": 285,
+    "rateBot": 1165,
+    "rateHalf": 590,
+    "rateNips": 285
+  },
+  {
+    "name": "BLENDERS PRIDE RESERVE COLLECTION WHISKY",
+    "cat": "whisky",
+    "mrpBot": 1240,
+    "mrpHalf": 625,
+    "mrpNips": 305,
+    "rateBot": 1240,
+    "rateHalf": 625,
+    "rateNips": 305
+  },
+  {
+    "name": "BLENDERS PRIDE SELECT PREMIUM WHISKY",
+    "cat": "whisky",
+    "mrpBot": 1035,
+    "mrpHalf": 515,
+    "mrpNips": 260,
+    "rateBot": 1035,
+    "rateHalf": 515,
+    "rateNips": 260
+  },
+  {
+    "name": "BLEU SHIRAZ CABERNET WINE",
+    "cat": "other",
+    "mrpBot": 920,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 920,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "BLUE MOON INDIAN DRY GIN",
+    "cat": "gin",
+    "mrpBot": 1395,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1395,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "BODEGA JUAN GILL PEDRERA ROSADO",
+    "cat": "other",
+    "mrpBot": 1400,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1400,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "BODEGAS JUAN GILL PEDRERA BLANCO D.O.P.",
+    "cat": "other",
+    "mrpBot": 1400,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1400,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "BODEGAS JUAN GILL PEDRERA MONASTRELL D.O.P.",
+    "cat": "other",
+    "mrpBot": 1400,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1400,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "BOEKENHOUTSKLOOF THE WOLFTRAP RED FRANSCHHOEK",
+    "cat": "other",
+    "mrpBot": 2995,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2995,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "BOHO CLASSIC BLENDED WHISKY",
+    "cat": "whisky",
+    "mrpBot": 1040,
+    "mrpHalf": 520,
+    "mrpNips": 260,
+    "rateBot": 1040,
+    "rateHalf": 520,
+    "rateNips": 260
+  },
+  {
+    "name": "BOLS BRANDY SPECIAL X.O. EXCELLENCE",
+    "cat": "other",
+    "mrpBot": 995,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 995,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "BOMBAY SAPPHIRE DISTILLED LONDON DRY GIN 40%",
+    "cat": "gin",
+    "mrpBot": 2290,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2290,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "BOMBAY SAPPHIRE DISTILLED LONDON DRY GIN",
+    "cat": "gin",
+    "mrpBot": 2015,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2015,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "BORN WEST CABERNET SOUVIGNON WINE",
+    "cat": "other",
+    "mrpBot": 2430,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2430,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "BRANCAIA TRE TOSCANA",
+    "cat": "other",
+    "mrpBot": 5735,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 5735,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "BREEZER PRESTIGE CRISP WATERMELON MINT FLAVOUR",
+    "cat": "other",
+    "mrpBot": 0,
+    "mrpHalf": 115,
+    "mrpNips": 0,
+    "rateBot": 0,
+    "rateHalf": 115,
+    "rateNips": 0
+  },
+  {
+    "name": "BREEZER PRESTIGE DELICIOUS BLACKBERRY CRUSH FLAVOUR",
+    "cat": "other",
+    "mrpBot": 0,
+    "mrpHalf": 115,
+    "mrpNips": 0,
+    "rateBot": 0,
+    "rateHalf": 115,
+    "rateNips": 0
+  },
+  {
+    "name": "BREEZER PRESTIGE EXOTIC JAMAICAN PASSION FLAVOUR",
+    "cat": "other",
+    "mrpBot": 0,
+    "mrpHalf": 115,
+    "mrpNips": 0,
+    "rateBot": 0,
+    "rateHalf": 115,
+    "rateNips": 0
+  },
+  {
+    "name": "BREEZER PRESTIGE RIPE MANGO PEACH FLAVOUR",
+    "cat": "other",
+    "mrpBot": 0,
+    "mrpHalf": 115,
+    "mrpNips": 0,
+    "rateBot": 0,
+    "rateHalf": 115,
+    "rateNips": 0
+  },
+  {
+    "name": "BREEZER PRESTIGE TANGY CRANBERRY FLAVOUR",
+    "cat": "other",
+    "mrpBot": 0,
+    "mrpHalf": 115,
+    "mrpNips": 0,
+    "rateBot": 0,
+    "rateHalf": 115,
+    "rateNips": 0
+  },
+  {
+    "name": "BREEZER PRESTIGE TASTY BLUEBERRY FLAVOUR",
+    "cat": "other",
+    "mrpBot": 0,
+    "mrpHalf": 115,
+    "mrpNips": 0,
+    "rateBot": 0,
+    "rateHalf": 115,
+    "rateNips": 0
+  },
+  {
+    "name": "BREEZER SUPER PREMIUM CRISP WATERMELON MINT",
+    "cat": "other",
+    "mrpBot": 0,
+    "mrpHalf": 115,
+    "mrpNips": 0,
+    "rateBot": 0,
+    "rateHalf": 115,
+    "rateNips": 0
+  },
+  {
+    "name": "BREEZER SUPER PREMIUM DELICIOUS BLACKBERRY CRUSH",
+    "cat": "other",
+    "mrpBot": 0,
+    "mrpHalf": 115,
+    "mrpNips": 0,
+    "rateBot": 0,
+    "rateHalf": 115,
+    "rateNips": 0
+  },
+  {
+    "name": "BREEZER SUPER PREMIUM EXOTIC JAMAICAN PASSION",
+    "cat": "other",
+    "mrpBot": 0,
+    "mrpHalf": 115,
+    "mrpNips": 0,
+    "rateBot": 0,
+    "rateHalf": 115,
+    "rateNips": 0
+  },
+  {
+    "name": "BREEZER SUPER PREMIUM TANGY CRANBERRY",
+    "cat": "other",
+    "mrpBot": 0,
+    "mrpHalf": 115,
+    "mrpNips": 0,
+    "rateBot": 0,
+    "rateHalf": 115,
+    "rateNips": 0
+  },
+  {
+    "name": "BREEZER SUPER PREMIUM TASTY BLUEBERRY",
+    "cat": "other",
+    "mrpBot": 0,
+    "mrpHalf": 115,
+    "mrpNips": 0,
+    "rateBot": 0,
+    "rateHalf": 115,
+    "rateNips": 0
+  },
+  {
+    "name": "BRUCE JACK CHENIN BLANC",
+    "cat": "other",
+    "mrpBot": 2140,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2140,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "BRUCE JACK DAILY BREW PINOTAGE",
+    "cat": "other",
+    "mrpBot": 2140,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2140,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "BUSH BALLAD MERLOT WINE",
+    "cat": "other",
+    "mrpBot": 1990,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1990,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "BUSH BALLAD SAUVIGNON BLANC WINE",
+    "cat": "other",
+    "mrpBot": 1990,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1990,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "BUSH BALLAD SHIRAZ CABERNET WINE",
+    "cat": "other",
+    "mrpBot": 1990,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1990,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Bacardi Ginger Original Ginger Rum",
+    "cat": "rum",
+    "mrpBot": 1095,
+    "mrpHalf": 550,
+    "mrpNips": 270,
+    "rateBot": 1095,
+    "rateHalf": 550,
+    "rateNips": 270
+  },
+  {
+    "name": "Badiola Mazzei IGT Toscana Red Wine",
+    "cat": "other",
+    "mrpBot": 4770,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 4770,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Ballantines Finest Blended Scotch Whisky.",
+    "cat": "whisky",
+    "mrpBot": 1810,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1810,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Bejois VSOP Blended Grape Brandy",
+    "cat": "other",
+    "mrpBot": 605,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 605,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Bex Nahe Riesling QbA",
+    "cat": "other",
+    "mrpBot": 3835,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 3835,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Black Dog Triple Gold Reserve Blended Scotch Whisky -",
+    "cat": "whisky",
+    "mrpBot": 2555,
+    "mrpHalf": 1285,
+    "mrpNips": 670,
+    "rateBot": 2555,
+    "rateHalf": 1285,
+    "rateNips": 670
+  },
+  {
+    "name": "Black Velvet Blended Canadian Whisky",
+    "cat": "whisky",
+    "mrpBot": 3090,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 3090,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Black by Bacardi Classic Original Premium Crafted Rum",
+    "cat": "rum",
+    "mrpBot": 700,
+    "mrpHalf": 350,
+    "mrpNips": 175,
+    "rateBot": 700,
+    "rateHalf": 350,
+    "rateNips": 175
+  },
+  {
+    "name": "Blue Riband Premium London Dry Gin",
+    "cat": "gin",
+    "mrpBot": 475,
+    "mrpHalf": 240,
+    "mrpNips": 120,
+    "rateBot": 475,
+    "rateHalf": 240,
+    "rateNips": 120
+  },
+  {
+    "name": "Bombay Sapphire Sunset Special Edition London Dry Gin",
+    "cat": "gin",
+    "mrpBot": 2180,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2180,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Bootz Dark Jamaica Rum",
+    "cat": "rum",
+    "mrpBot": 820,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 820,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Born West Chardonnay Wine",
+    "cat": "other",
+    "mrpBot": 2430,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2430,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Buen Amigo Tequila Silver",
+    "cat": "other",
+    "mrpBot": 2410,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2410,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "CABO WHITE RUM WITH COCONUT LIQUER",
+    "cat": "rum",
+    "mrpBot": 1630,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1630,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "CALENTER PREMIUM RUM",
+    "cat": "rum",
+    "mrpBot": 640,
+    "mrpHalf": 325,
+    "mrpNips": 160,
+    "rateBot": 640,
+    "rateHalf": 325,
+    "rateNips": 160
+  },
+  {
+    "name": "CAMIKARA RUM CASK 3 YO AGED",
+    "cat": "rum",
+    "mrpBot": 2580,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2580,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "CANNONBALL CABERNET SAUVIGNON",
+    "cat": "other",
+    "mrpBot": 6360,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 6360,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "CANNONBALL CHARDONNAY",
+    "cat": "other",
+    "mrpBot": 6155,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 6155,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "CAPTAIN MORGAN ORIGINAL SPICED GOLD RUM",
+    "cat": "rum",
+    "mrpBot": 1150,
+    "mrpHalf": 0,
+    "mrpNips": 290,
+    "rateBot": 1150,
+    "rateHalf": 0,
+    "rateNips": 290
+  },
+  {
+    "name": "CARLO ROSSI CALIFORNIA RED WINE",
+    "cat": "other",
+    "mrpBot": 2195,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2195,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "CARLO ROSSI CALIFORNIA WHITE WINE",
+    "cat": "other",
+    "mrpBot": 2195,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2195,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "CARPINETO DOGAJOLO BIANCO IGT",
+    "cat": "other",
+    "mrpBot": 4800,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 4800,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "CARPINETO DOGAJOLO ROSSO IGT",
+    "cat": "other",
+    "mrpBot": 4800,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 4800,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "CASHMIR VODKA",
+    "cat": "vodka",
+    "mrpBot": 2595,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2595,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "CASILLERO DEL DIABLO MERLOT WINE",
+    "cat": "other",
+    "mrpBot": 2480,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2480,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "CASILLERO DEL DIABLO RESERVA CABERNET SAUVIGNON WINE",
+    "cat": "other",
+    "mrpBot": 2950,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2950,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "CAVICHIOLLE PROCESSCO DOC",
+    "cat": "other",
+    "mrpBot": 2290,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2290,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "CENTRAL PROVINCE PREMIUM XXX RUM",
+    "cat": "rum",
+    "mrpBot": 500,
+    "mrpHalf": 255,
+    "mrpNips": 125,
+    "rateBot": 500,
+    "rateHalf": 255,
+    "rateNips": 125
+  },
+  {
+    "name": "CENTRAL PROVINCE SUPERIOR GRAIN WHISKY",
+    "cat": "whisky",
+    "mrpBot": 645,
+    "mrpHalf": 325,
+    "mrpNips": 160,
+    "rateBot": 645,
+    "rateHalf": 325,
+    "rateNips": 160
+  },
+  {
+    "name": "CHANDON BRUT",
+    "cat": "other",
+    "mrpBot": 2820,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2820,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "CHANDON ROSE",
+    "cat": "other",
+    "mrpBot": 2820,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2820,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "CHATEAU DE BEAUREGARD-DUCOURT BLACK LABEL BORDEAUX ROUGE",
+    "cat": "other",
+    "mrpBot": 3125,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 3125,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "CHATEAU LARROQUE BORDEAUX SUPERIEUR",
+    "cat": "other",
+    "mrpBot": 3125,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 3125,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "CHATEAU LE MAYNE CABANOT",
+    "cat": "other",
+    "mrpBot": 3200,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 3200,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "CHIVAS REGAL AGED 12 YEAR BLENDED SCOTCH WHISKY.",
+    "cat": "whisky",
+    "mrpBot": 3440,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 3440,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "CHIVAS REGAL AGED 12 YEARS BLENDED SCOTCH WHISKY 40%",
+    "cat": "whisky",
+    "mrpBot": 3440,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 3440,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "CIROC SNAP FROST VODKA",
+    "cat": "vodka",
+    "mrpBot": 4215,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 4215,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Carews Dry Gin",
+    "cat": "gin",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 115,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 115
+  },
+  {
+    "name": "Casa EL Unico Chardonnay",
+    "cat": "other",
+    "mrpBot": 2395,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2395,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Casa EL Unico Tempranillo",
+    "cat": "other",
+    "mrpBot": 2290,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2290,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Castello Di Querceto Chianti Classico Riserva Wine",
+    "cat": "other",
+    "mrpBot": 6345,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 6345,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Castello Di Querceto Cignale Wine",
+    "cat": "other",
+    "mrpBot": 14980,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 14980,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Castello Di Querceto IL Querciolaia Wine",
+    "cat": "other",
+    "mrpBot": 11230,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 11230,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Chambal Indian Dry Gin",
+    "cat": "gin",
+    "mrpBot": 2130,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2130,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Chantilli Chenin Blanc",
+    "cat": "other",
+    "mrpBot": 1090,
+    "mrpHalf": 565,
+    "mrpNips": 0,
+    "rateBot": 1090,
+    "rateHalf": 565,
+    "rateNips": 0
+  },
+  {
+    "name": "Chantilli Shiraz",
+    "cat": "other",
+    "mrpBot": 1090,
+    "mrpHalf": 565,
+    "mrpNips": 0,
+    "rateBot": 1090,
+    "rateHalf": 565,
+    "rateNips": 0
+  },
+  {
+    "name": "Chantilli Zinfandel",
+    "cat": "other",
+    "mrpBot": 1090,
+    "mrpHalf": 565,
+    "mrpNips": 0,
+    "rateBot": 1090,
+    "rateHalf": 565,
+    "rateNips": 0
+  },
+  {
+    "name": "Chateau Mont Redon Chateauneuf Du Pape Rouge Wine",
+    "cat": "other",
+    "mrpBot": 16465,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 16465,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Clarendelle ,Inspired by Haut-Brion AOC Bordeaux Rouge",
+    "cat": "other",
+    "mrpBot": 7770,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 7770,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Clarendelle,Inspired by Haut- Brion AOC Bordeaux Rose",
+    "cat": "other",
+    "mrpBot": 5820,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 5820,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "DEWARS BLENDED SCOTCH WHISKY AGED 15 YEARS - DOUBLE AGED",
+    "cat": "whisky",
+    "mrpBot": 4505,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 4505,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "DON ROMEO BLANCO TEQUILA",
+    "cat": "other",
+    "mrpBot": 5355,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 5355,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "DON ROMEO REPOSADO TEQUILA",
+    "cat": "other",
+    "mrpBot": 6505,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 6505,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "DUPRAIS RED WINE",
+    "cat": "other",
+    "mrpBot": 2500,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2500,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "DUPRAIS ROSE WINE",
+    "cat": "other",
+    "mrpBot": 2600,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2600,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Daku Gold Rum",
+    "cat": "rum",
+    "mrpBot": 2120,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2120,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Daku Silver Rum",
+    "cat": "rum",
+    "mrpBot": 2120,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2120,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Dewars Blended Scotch Whisky Aged 12 Years Bourbon Casks",
+    "cat": "whisky",
+    "mrpBot": 3625,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 3625,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Dewars Blended Scotch Whisky White Label",
+    "cat": "whisky",
+    "mrpBot": 0,
+    "mrpHalf": 900,
+    "mrpNips": 500,
+    "rateBot": 0,
+    "rateHalf": 900,
+    "rateNips": 500
+  },
+  {
+    "name": "Dewars White Label Blended Scotch Whisky True Scotch",
+    "cat": "whisky",
+    "mrpBot": 1995,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1995,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Directors Special Black Classic Whisky",
+    "cat": "whisky",
+    "mrpBot": 585,
+    "mrpHalf": 295,
+    "mrpNips": 145,
+    "rateBot": 585,
+    "rateHalf": 295,
+    "rateNips": 145
+  },
+  {
+    "name": "Don Angel Tequila Blanco Rare Reserve",
+    "cat": "other",
+    "mrpBot": 3280,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 3280,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Dos Flamos Tequila Blanco",
+    "cat": "other",
+    "mrpBot": 4200,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 4200,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Dos Flamos Tequila Oro",
+    "cat": "other",
+    "mrpBot": 4200,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 4200,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "EDEN BLENDED MALT WHISKY",
+    "cat": "whisky",
+    "mrpBot": 2110,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2110,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "ELLEN'S OAK SCOTECH BLENDED WHISKY",
+    "cat": "whisky",
+    "mrpBot": 1990,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1990,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "ESPECIAL NEWTON SILVER TEQUILA",
+    "cat": "other",
+    "mrpBot": 2225,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2225,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Episode Classic Whisky",
+    "cat": "whisky",
+    "mrpBot": 470,
+    "mrpHalf": 240,
+    "mrpNips": 115,
+    "rateBot": 470,
+    "rateHalf": 240,
+    "rateNips": 115
+  },
+  {
+    "name": "Evan Williams Kentucky Straight Bourbon Whiskey",
+    "cat": "whisky",
+    "mrpBot": 3315,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 3315,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "FAMILLE FABRE, L' INSTANT ROUGE",
+    "cat": "other",
+    "mrpBot": 2925,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2925,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "FAMILLE FABRE, L' INSTANT SAUVIGNON BLANC",
+    "cat": "other",
+    "mrpBot": 2925,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2925,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "FAMILLE PERRIN COTES DU RHONE RESERVE ROUGE",
+    "cat": "other",
+    "mrpBot": 4610,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 4610,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "FIREBALL CINNAMON FLAVOURED WHISKY.",
+    "cat": "whisky",
+    "mrpBot": 1355,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1355,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "FLOAT MASALA LEMONADE",
+    "cat": "other",
+    "mrpBot": 0,
+    "mrpHalf": 115,
+    "mrpNips": 0,
+    "rateBot": 0,
+    "rateHalf": 115,
+    "rateNips": 0
+  },
+  {
+    "name": "FLOAT SPARKLING ORANGE",
+    "cat": "other",
+    "mrpBot": 0,
+    "mrpHalf": 115,
+    "mrpNips": 0,
+    "rateBot": 0,
+    "rateHalf": 115,
+    "rateNips": 0
+  },
+  {
+    "name": "FLOAT VODKA CRANBERRY",
+    "cat": "vodka",
+    "mrpBot": 0,
+    "mrpHalf": 115,
+    "mrpNips": 0,
+    "rateBot": 0,
+    "rateHalf": 115,
+    "rateNips": 0
+  },
+  {
+    "name": "FOLONARI CHIANTI DOCG",
+    "cat": "other",
+    "mrpBot": 2410,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2410,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "FOLONARI PINOT NOIR IGT",
+    "cat": "other",
+    "mrpBot": 2300,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2300,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "FRATELLI CABERNET FRANC SHIRAZ ESTATE BOTTLED",
+    "cat": "other",
+    "mrpBot": 1060,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1060,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "FRATELLI CABERNET SAUVIGNON ESTATE BOTTLED",
+    "cat": "other",
+    "mrpBot": 1095,
+    "mrpHalf": 555,
+    "mrpNips": 0,
+    "rateBot": 1095,
+    "rateHalf": 555,
+    "rateNips": 0
+  },
+  {
+    "name": "FRATELLI CHARDONNAY ESTATE BOTTLED",
+    "cat": "other",
+    "mrpBot": 1060,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1060,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "FRATELLI CLASSIC MERLOT",
+    "cat": "other",
+    "mrpBot": 735,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 735,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "FRATELLI MASTER SELECTION CHARDONNAY SAUVIGNON BLANC",
+    "cat": "other",
+    "mrpBot": 1670,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1670,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "FRATELLI MASTER SELECTION LATE HARVEST CHENIN BLANC",
+    "cat": "other",
+    "mrpBot": 1670,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1670,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "FRATELLI MASTER SELECTION SANGIOVESE ROSE",
+    "cat": "other",
+    "mrpBot": 1670,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1670,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "FRATELLI MASTER SELECTION SHIRAZ CABERNET",
+    "cat": "other",
+    "mrpBot": 1670,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1670,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "FRATELLI PINOT NOIR",
+    "cat": "other",
+    "mrpBot": 1330,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1330,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "FRATELLI SANGIOVESE ESTATE BOTTLED",
+    "cat": "other",
+    "mrpBot": 1170,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1170,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "FRATELLI SAUVIGNON BLANC ESTATE BOTTLED",
+    "cat": "other",
+    "mrpBot": 840,
+    "mrpHalf": 425,
+    "mrpNips": 0,
+    "rateBot": 840,
+    "rateHalf": 425,
+    "rateNips": 0
+  },
+  {
+    "name": "FRATELLI SETTE",
+    "cat": "other",
+    "mrpBot": 2435,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2435,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "FRATELLI SHIRAZ ROSE",
+    "cat": "other",
+    "mrpBot": 765,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 765,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "FRATELLI SHIRAZ",
+    "cat": "other",
+    "mrpBot": 855,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 855,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "FRIZZANO DOLCE SWEET SPARKLING WINE",
+    "cat": "other",
+    "mrpBot": 580,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 580,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "FRIZZANO ROSATO ROSE SPARKLING WINE",
+    "cat": "other",
+    "mrpBot": 580,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 580,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "FRIZZANO ROSE SPARKLING WINE SEMI DRY",
+    "cat": "other",
+    "mrpBot": 965,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 965,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "FRIZZANO ROSSO RED SPARKLING WINE",
+    "cat": "other",
+    "mrpBot": 570,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 570,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "FRIZZANO SPARKLING WINE SEMI DRY",
+    "cat": "other",
+    "mrpBot": 965,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 965,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Famille Hugel AOC Alsace Riesling",
+    "cat": "other",
+    "mrpBot": 11185,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 11185,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Fandango Mezcal",
+    "cat": "other",
+    "mrpBot": 7900,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 7900,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Fantini Montepulciano D Abruzzo Red Wine",
+    "cat": "other",
+    "mrpBot": 2815,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2815,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Fattori Delle Venezie Pinot Grigio Wine",
+    "cat": "other",
+    "mrpBot": 2580,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2580,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "François Labet Ile de Beaute Pinot Noir",
+    "cat": "other",
+    "mrpBot": 6660,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 6660,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "GILMORE SELECT WHISKY",
+    "cat": "whisky",
+    "mrpBot": 1500,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1500,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "GODFATHER PREMIUM RUM",
+    "cat": "rum",
+    "mrpBot": 620,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 620,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "GODWIT RARE PREMIUM WHISKY",
+    "cat": "whisky",
+    "mrpBot": 990,
+    "mrpHalf": 0,
+    "mrpNips": 245,
+    "rateBot": 990,
+    "rateHalf": 0,
+    "rateNips": 245
+  },
+  {
+    "name": "GOLDEN OAK BARREL AGED BLENDED SELECT WHISKY",
+    "cat": "whisky",
+    "mrpBot": 1035,
+    "mrpHalf": 515,
+    "mrpNips": 260,
+    "rateBot": 1035,
+    "rateHalf": 515,
+    "rateNips": 260
+  },
+  {
+    "name": "GOLDEN SPARROW CELLAR COLLECTION CHIANTI DOCG RED WINE",
+    "cat": "other",
+    "mrpBot": 3500,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 3500,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "GOLDEN SPARROW CELLAR COLLECTION MONTEPULCIANO D ABRUZZO RED WINE",
+    "cat": "other",
+    "mrpBot": 2850,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2850,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "GOLFERS SHOT OAK BARREL AGED WHISKY",
+    "cat": "whisky",
+    "mrpBot": 1075,
+    "mrpHalf": 540,
+    "mrpNips": 270,
+    "rateBot": 1075,
+    "rateHalf": 540,
+    "rateNips": 270
+  },
+  {
+    "name": "GORDONS LONDON DRY GIN",
+    "cat": "gin",
+    "mrpBot": 1645,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1645,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "GRAND LOUIS WHITE WINE",
+    "cat": "other",
+    "mrpBot": 2600,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2600,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "GRANTS TRIPLE WOOD BELNDED SCOTCH WHISKY",
+    "cat": "whisky",
+    "mrpBot": 2050,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2050,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "GREATER THAN LONDON DRY GIN SMALL BATCH",
+    "cat": "gin",
+    "mrpBot": 1400,
+    "mrpHalf": 0,
+    "mrpNips": 350,
+    "rateBot": 1400,
+    "rateHalf": 0,
+    "rateNips": 350
+  },
+  {
+    "name": "GREATER THAN LONDON DRY GIN",
+    "cat": "gin",
+    "mrpBot": 1140,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1140,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "GRETH PREMIUM WHISKY",
+    "cat": "whisky",
+    "mrpBot": 1240,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1240,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Glenfiddich 12 Y.O Single Malt Scotch Whisky",
+    "cat": "whisky",
+    "mrpBot": 6115,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 6115,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Gold Riband Deluxe Whisky",
+    "cat": "whisky",
+    "mrpBot": 475,
+    "mrpHalf": 240,
+    "mrpNips": 120,
+    "rateBot": 475,
+    "rateHalf": 240,
+    "rateNips": 120
+  },
+  {
+    "name": "Golden Sparrow Cellar Collection Sangiovese Rubicone",
+    "cat": "other",
+    "mrpBot": 1635,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1635,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Grover Cabernet Shiraz Reserve Collection Red Wine",
+    "cat": "other",
+    "mrpBot": 1090,
+    "mrpHalf": 565,
+    "mrpNips": 0,
+    "rateBot": 1090,
+    "rateHalf": 565,
+    "rateNips": 0
+  },
+  {
+    "name": "Grover Chene Grand Reserve Barrique Red Wine",
+    "cat": "other",
+    "mrpBot": 2555,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2555,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Grover Chene Grand Reserve Chardonnay White Wine",
+    "cat": "other",
+    "mrpBot": 2555,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2555,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Grover La Reserve Fume Blanc White Wine",
+    "cat": "other",
+    "mrpBot": 1220,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1220,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Grover La Reserve Icon Red Wine",
+    "cat": "other",
+    "mrpBot": 1220,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1220,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Grover Merlot Reserve Collection Red Wine",
+    "cat": "other",
+    "mrpBot": 1035,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1035,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Grover Sauvignon Blanc Reserve Collection White Wine",
+    "cat": "other",
+    "mrpBot": 1000,
+    "mrpHalf": 520,
+    "mrpNips": 0,
+    "rateBot": 1000,
+    "rateHalf": 520,
+    "rateNips": 0
+  },
+  {
+    "name": "Grover Shiraz Rose Reserve Collection Wine",
+    "cat": "other",
+    "mrpBot": 1000,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1000,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Grover Soiree Magnifique Brut Rose",
+    "cat": "other",
+    "mrpBot": 1680,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1680,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Grover Soiree Magnifique Brut",
+    "cat": "other",
+    "mrpBot": 1580,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1580,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "HAPUSA HIMALAYAN DRY GIN",
+    "cat": "gin",
+    "mrpBot": 2985,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2985,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "HARDYS STAMP CABERNET MERLOT",
+    "cat": "other",
+    "mrpBot": 2135,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2135,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "HARDYS STAMP CHARDONNAY SEMILLON",
+    "cat": "other",
+    "mrpBot": 2160,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2160,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "HARDYS STAMP ROSE",
+    "cat": "other",
+    "mrpBot": 2400,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2400,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "HARDYS STAMP SHIRAZ CABERNET",
+    "cat": "other",
+    "mrpBot": 2140,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2140,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "HARDYS STAMP SPARKLING",
+    "cat": "other",
+    "mrpBot": 2820,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2820,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "HERCULES Old Matured Deluxe 3 X RUM",
+    "cat": "rum",
+    "mrpBot": 725,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 725,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "HERCULES XXX RUM",
+    "cat": "rum",
+    "mrpBot": 500,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 500,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "HILLFORT PREMIUM BLENDED MALT WHISKY",
+    "cat": "whisky",
+    "mrpBot": 1075,
+    "mrpHalf": 540,
+    "mrpNips": 270,
+    "rateBot": 1075,
+    "rateHalf": 540,
+    "rateNips": 270
+  },
+  {
+    "name": "Hugel et Fils Gentil Alsace Blend",
+    "cat": "other",
+    "mrpBot": 4140,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 4140,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "IICE UNDRESS THE ORANGE VODKA PLATINUM",
+    "cat": "vodka",
+    "mrpBot": 685,
+    "mrpHalf": 345,
+    "mrpNips": 170,
+    "rateBot": 685,
+    "rateHalf": 345,
+    "rateNips": 170
+  },
+  {
+    "name": "IMPERIAL BLUE RESERVE GRAIN WHISKY",
+    "cat": "whisky",
+    "mrpBot": 650,
+    "mrpHalf": 325,
+    "mrpNips": 160,
+    "rateBot": 650,
+    "rateHalf": 325,
+    "rateNips": 160
+  },
+  {
+    "name": "INDRI SINGLE MALT INDIAN WHISKY AGNEYA",
+    "cat": "whisky",
+    "mrpBot": 7000,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 7000,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "IQ LONDON DRY GIN",
+    "cat": "gin",
+    "mrpBot": 1535,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1535,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Iconiq White Prime International Grain Whisky",
+    "cat": "whisky",
+    "mrpBot": 640,
+    "mrpHalf": 320,
+    "mrpNips": 160,
+    "rateBot": 640,
+    "rateHalf": 320,
+    "rateNips": 160
+  },
+  {
+    "name": "Indri Single Malt Indian Whisky",
+    "cat": "whisky",
+    "mrpBot": 0,
+    "mrpHalf": 0,
+    "mrpNips": 410,
+    "rateBot": 0,
+    "rateHalf": 0,
+    "rateNips": 410
+  },
+  {
+    "name": "J AND B RARE BLENDED SCOTCH WHISKY",
+    "cat": "whisky",
+    "mrpBot": 1920,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1920,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "JACK DANIELS OLD NO 7 BRAND TENNESSEE SOUR MASH WHISKEY",
+    "cat": "whisky",
+    "mrpBot": 3110,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 3110,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "JACK DANIELS ORIGINAL RECIPE TENNESSEE FIRE",
+    "cat": "other",
+    "mrpBot": 3040,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 3040,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "JACK DANIELS ORIGINAL RECIPE TENNESSEE HONEY",
+    "cat": "other",
+    "mrpBot": 3040,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 3040,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "JACKIES CROWN WHISKY",
+    "cat": "whisky",
+    "mrpBot": 755,
+    "mrpHalf": 0,
+    "mrpNips": 190,
+    "rateBot": 755,
+    "rateHalf": 0,
+    "rateNips": 190
+  },
+  {
+    "name": "JACOBS CREEK CHARDONNAY.",
+    "cat": "other",
+    "mrpBot": 1410,
+    "mrpHalf": 0,
+    "mrpNips": 405,
+    "rateBot": 1410,
+    "rateHalf": 0,
+    "rateNips": 405
+  },
+  {
+    "name": "JACOB`S CREEK SHIRAZ CABERNET",
+    "cat": "other",
+    "mrpBot": 1400,
+    "mrpHalf": 0,
+    "mrpNips": 395,
+    "rateBot": 1400,
+    "rateHalf": 0,
+    "rateNips": 395
+  },
+  {
+    "name": "JAGERMEISTER LIQUEUR",
+    "cat": "other",
+    "mrpBot": 3615,
+    "mrpHalf": 1960,
+    "mrpNips": 0,
+    "rateBot": 3615,
+    "rateHalf": 1960,
+    "rateNips": 0
+  },
+  {
+    "name": "JAMESON IRISH WHISKEY",
+    "cat": "whisky",
+    "mrpBot": 2420,
+    "mrpHalf": 0,
+    "mrpNips": 730,
+    "rateBot": 2420,
+    "rateHalf": 0,
+    "rateNips": 730
+  },
+  {
+    "name": "JAMESON CASKMATES STOUT EDITION IRISH WHISKEY",
+    "cat": "whisky",
+    "mrpBot": 2895,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2895,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "JAMUN THE HIMALAYAN JUNIPER DRY GIN",
+    "cat": "gin",
+    "mrpBot": 4360,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 4360,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "JIM BEAM BLACK KENTUCKY STRAIGHT BOURBON WHISKEY",
+    "cat": "whisky",
+    "mrpBot": 2945,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2945,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "JIM BEAM KENTUCKY STRAIGHT BOURBON WHISKEY.",
+    "cat": "whisky",
+    "mrpBot": 2000,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2000,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "JOHNNIE WALKER BLACK LABEL BLENDED SCOTCH WHISKY",
+    "cat": "whisky",
+    "mrpBot": 3745,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 3745,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "JOHNNIE WALKER DOUBLE BLACK BLENDED SCOTCH WHISKY",
+    "cat": "whisky",
+    "mrpBot": 4740,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 4740,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "JOHNNIE WALKER RED LABEL BLENDED SCOTCH WHISKY",
+    "cat": "whisky",
+    "mrpBot": 1945,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1945,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "JR 59 PREMIUM WHISKY",
+    "cat": "whisky",
+    "mrpBot": 760,
+    "mrpHalf": 380,
+    "mrpNips": 190,
+    "rateBot": 760,
+    "rateHalf": 380,
+    "rateNips": 190
+  },
+  {
+    "name": "Jacob's Creek Merlot",
+    "cat": "other",
+    "mrpBot": 1410,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1410,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "John Barr Blended Scotch Whisky Reserve Blend",
+    "cat": "whisky",
+    "mrpBot": 1990,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1990,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "KAHLUA LIQUEUR",
+    "cat": "other",
+    "mrpBot": 2305,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2305,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "KAPTAAN XXX RUM",
+    "cat": "rum",
+    "mrpBot": 685,
+    "mrpHalf": 0,
+    "mrpNips": 175,
+    "rateBot": 685,
+    "rateHalf": 0,
+    "rateNips": 175
+  },
+  {
+    "name": "KETEL ONE VODKA",
+    "cat": "vodka",
+    "mrpBot": 2180,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2180,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "KNIGHT RIDER ULTRA PREMIUM CLASSIC ORANGE VODKA",
+    "cat": "vodka",
+    "mrpBot": 680,
+    "mrpHalf": 340,
+    "mrpNips": 170,
+    "rateBot": 680,
+    "rateHalf": 340,
+    "rateNips": 170
+  },
+  {
+    "name": "KNIGHT RIDER ULTRA PREMIUM CLASSIC VODKA",
+    "cat": "vodka",
+    "mrpBot": 680,
+    "mrpHalf": 340,
+    "mrpNips": 170,
+    "rateBot": 680,
+    "rateHalf": 340,
+    "rateNips": 170
+  },
+  {
+    "name": "KOSHA INDIAN DRY GIN",
+    "cat": "gin",
+    "mrpBot": 1200,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1200,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "KYRO RESERVE WHISKY",
+    "cat": "whisky",
+    "mrpBot": 780,
+    "mrpHalf": 390,
+    "mrpNips": 195,
+    "rateBot": 780,
+    "rateHalf": 390,
+    "rateNips": 195
+  },
+  {
+    "name": "Killibinbin Shiver Chardonnay",
+    "cat": "other",
+    "mrpBot": 3535,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 3535,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Killibinbin Sneaky Shiraz",
+    "cat": "other",
+    "mrpBot": 3535,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 3535,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "LA VIEILLE FERME BLANC",
+    "cat": "other",
+    "mrpBot": 2690,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2690,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "LA VIEILLE FERME ROSE",
+    "cat": "other",
+    "mrpBot": 2550,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2550,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "LAPHROAIG ISLAY SINGLE MALT SCOTCH WHISKY 10 YEARS OLD",
+    "cat": "whisky",
+    "mrpBot": 5450,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 5450,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "LEGACY PREMIUM BLENDED WHISKY - SUPER PLATINUM",
+    "cat": "whisky",
+    "mrpBot": 1130,
+    "mrpHalf": 565,
+    "mrpNips": 290,
+    "rateBot": 1130,
+    "rateHalf": 565,
+    "rateNips": 290
+  },
+  {
+    "name": "LEISTUNG - Dragon Fruit",
+    "cat": "other",
+    "mrpBot": 2300,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2300,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "LEISTUNG - Pine Apple",
+    "cat": "other",
+    "mrpBot": 1090,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1090,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "LEISTUNG – Keshar Mango",
+    "cat": "other",
+    "mrpBot": 1395,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1395,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "LIONS PRIDE FINE BLENDED WHISKY EDITION GOLD",
+    "cat": "whisky",
+    "mrpBot": 800,
+    "mrpHalf": 0,
+    "mrpNips": 200,
+    "rateBot": 800,
+    "rateHalf": 0,
+    "rateNips": 200
+  },
+  {
+    "name": "LOST POET RED WINE",
+    "cat": "other",
+    "mrpBot": 2835,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2835,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "LOST POET ROSE",
+    "cat": "other",
+    "mrpBot": 2830,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2830,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "LUIE FELIPE EDWARDS ROSE",
+    "cat": "other",
+    "mrpBot": 1560,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1560,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "LUIS FELIPE EDWARDS CARMENERE",
+    "cat": "other",
+    "mrpBot": 1580,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1580,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "LUIS FELIPE EDWARDS SAUVIGNON BLANC",
+    "cat": "other",
+    "mrpBot": 1550,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1550,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "La Vieille Ferme Rouge",
+    "cat": "other",
+    "mrpBot": 2590,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2590,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Les Legendes Bordeaux Blanc Wine",
+    "cat": "other",
+    "mrpBot": 3665,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 3665,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Les Legendes Bordeaux Rouge Wine",
+    "cat": "other",
+    "mrpBot": 3360,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 3360,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Les Pagodes de Château Cos d Estournel",
+    "cat": "other",
+    "mrpBot": 33055,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 33055,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "M-2 MAGIC MOMENTS REMIX ORANGE FLAVOURED SUPERIOR VODKA",
+    "cat": "vodka",
+    "mrpBot": 700,
+    "mrpHalf": 350,
+    "mrpNips": 175,
+    "rateBot": 700,
+    "rateHalf": 350,
+    "rateNips": 175
+  },
+  {
+    "name": "M-2 MAGIC MOMENTS SUPERIOR GRAIN VODKA",
+    "cat": "vodka",
+    "mrpBot": 690,
+    "mrpHalf": 345,
+    "mrpNips": 170,
+    "rateBot": 690,
+    "rateHalf": 345,
+    "rateNips": 170
+  },
+  {
+    "name": "M-2 Magic Moments Remix Grapefruit & Watermelon Flavoured Superior Vodka",
+    "cat": "vodka",
+    "mrpBot": 700,
+    "mrpHalf": 350,
+    "mrpNips": 175,
+    "rateBot": 700,
+    "rateHalf": 350,
+    "rateNips": 175
+  },
+  {
+    "name": "M-2 Magic Moments Remix Green Apple Flavoured Superior Vodka",
+    "cat": "vodka",
+    "mrpBot": 700,
+    "mrpHalf": 350,
+    "mrpNips": 175,
+    "rateBot": 700,
+    "rateHalf": 350,
+    "rateNips": 175
+  },
+  {
+    "name": "M2 MAGIC MOMENTS ALPHONSO MANGO FLAVOURED RADIANT VODKA",
+    "cat": "vodka",
+    "mrpBot": 740,
+    "mrpHalf": 370,
+    "mrpNips": 185,
+    "rateBot": 740,
+    "rateHalf": 370,
+    "rateNips": 185
+  },
+  {
+    "name": "M2 MAGIC MOMENTS JAMUN SPICYMINT RADIANT FLAVOURED VODKA",
+    "cat": "vodka",
+    "mrpBot": 740,
+    "mrpHalf": 370,
+    "mrpNips": 185,
+    "rateBot": 740,
+    "rateHalf": 370,
+    "rateNips": 185
+  },
+  {
+    "name": "M2 MAGIC MOMENTS RADIANT GRAIN VODKA",
+    "cat": "vodka",
+    "mrpBot": 715,
+    "mrpHalf": 360,
+    "mrpNips": 180,
+    "rateBot": 715,
+    "rateHalf": 360,
+    "rateNips": 180
+  },
+  {
+    "name": "M2 MAGIC MOMENTS REMIX GRAPEFRUIT & WATERMELON FLAVOURED RADIANT VODKA",
+    "cat": "vodka",
+    "mrpBot": 715,
+    "mrpHalf": 360,
+    "mrpNips": 180,
+    "rateBot": 715,
+    "rateHalf": 360,
+    "rateNips": 180
+  },
+  {
+    "name": "M2 MAGIC MOMENTS REMIX GREEN APPLE FLAVOURED RADIANT VODKA",
+    "cat": "vodka",
+    "mrpBot": 715,
+    "mrpHalf": 360,
+    "mrpNips": 180,
+    "rateBot": 715,
+    "rateHalf": 360,
+    "rateNips": 180
+  },
+  {
+    "name": "M2 MAGIC MOMENTS REMIX ORANGE FLAVOURED RADIANT VODKA",
+    "cat": "vodka",
+    "mrpBot": 715,
+    "mrpHalf": 360,
+    "mrpNips": 180,
+    "rateBot": 715,
+    "rateHalf": 360,
+    "rateNips": 180
+  },
+  {
+    "name": "M2 MAGIC MOMENTS THANDAAI FLAVOURED RADIANT VODKA",
+    "cat": "vodka",
+    "mrpBot": 740,
+    "mrpHalf": 370,
+    "mrpNips": 185,
+    "rateBot": 740,
+    "rateHalf": 370,
+    "rateNips": 185
+  },
+  {
+    "name": "M2 MAGIC MOMENTS VERVE CRANBERRY TEASE PREMIUM+ FLAVOURED VODKA",
+    "cat": "vodka",
+    "mrpBot": 1045,
+    "mrpHalf": 525,
+    "mrpNips": 265,
+    "rateBot": 1045,
+    "rateHalf": 525,
+    "rateNips": 265
+  },
+  {
+    "name": "M2 MAGIC MOMENTS VERVE LEMON LUSH PREMIUM FLAVOURED VODKA.",
+    "cat": "vodka",
+    "mrpBot": 1045,
+    "mrpHalf": 525,
+    "mrpNips": 265,
+    "rateBot": 1045,
+    "rateHalf": 525,
+    "rateNips": 265
+  },
+  {
+    "name": "M2 MAGIC MOMENTS VERVE ORANGE PREMIUM FLAVOURED VODKA",
+    "cat": "vodka",
+    "mrpBot": 1045,
+    "mrpHalf": 525,
+    "mrpNips": 265,
+    "rateBot": 1045,
+    "rateHalf": 525,
+    "rateNips": 265
+  },
+  {
+    "name": "M2 MAGIC MOMENTS VERVE PREMIUM VODKA",
+    "cat": "vodka",
+    "mrpBot": 965,
+    "mrpHalf": 510,
+    "mrpNips": 260,
+    "rateBot": 965,
+    "rateHalf": 510,
+    "rateNips": 260
+  },
+  {
+    "name": "MACROYS SHERRY FINISH BLENDED SCOTCH WHISKY",
+    "cat": "whisky",
+    "mrpBot": 2815,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2815,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "MACROYS SPECIAL RESERVE BLENDED SCOTCH WHISKY",
+    "cat": "whisky",
+    "mrpBot": 2170,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2170,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "MADERA NASHIK VALLEY RED WINE",
+    "cat": "other",
+    "mrpBot": 635,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 635,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "MAGIC MOMENTS REMIX RADIANT PINK VODKA",
+    "cat": "vodka",
+    "mrpBot": 740,
+    "mrpHalf": 370,
+    "mrpNips": 185,
+    "rateBot": 740,
+    "rateHalf": 370,
+    "rateNips": 185
+  },
+  {
+    "name": "MAHARANI MAHANSAR CARDAMOM ( ELAICHI) VINTAGE EDITION",
+    "cat": "other",
+    "mrpBot": 1615,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1615,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "MAHARANI MAHANSAR INDIAN ABSINTHE HERITAGE LIQUEUR",
+    "cat": "other",
+    "mrpBot": 1045,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1045,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "MAHARANI MAHANSAR NARANGAM (ORANGE) VINTAGE EDITION",
+    "cat": "other",
+    "mrpBot": 1615,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1615,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "MAHARANI MAHANSAR ORANGE HERITAGE LIQUEUR",
+    "cat": "other",
+    "mrpBot": 530,
+    "mrpHalf": 0,
+    "mrpNips": 135,
+    "rateBot": 530,
+    "rateHalf": 0,
+    "rateNips": 135
+  },
+  {
+    "name": "MAHARANI MAHANSAR PAAN BETEL LEAF",
+    "cat": "other",
+    "mrpBot": 495,
+    "mrpHalf": 0,
+    "mrpNips": 125,
+    "rateBot": 495,
+    "rateHalf": 0,
+    "rateNips": 125
+  },
+  {
+    "name": "MAHARANI MAHANSAR SHAHI GULAB (VINTAGE EDITION)",
+    "cat": "other",
+    "mrpBot": 1045,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1045,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "MAHARANI MAHANSAR SHAHI GULAB PREMIUM ROSE",
+    "cat": "other",
+    "mrpBot": 495,
+    "mrpHalf": 0,
+    "mrpNips": 125,
+    "rateBot": 495,
+    "rateHalf": 0,
+    "rateNips": 125
+  },
+  {
+    "name": "MAHARANI MAHANSAR SOM RAS (VINTAGE EDITION)",
+    "cat": "other",
+    "mrpBot": 1045,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1045,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "MAHARANI MAHANSAR SOM RAS",
+    "cat": "other",
+    "mrpBot": 495,
+    "mrpHalf": 0,
+    "mrpNips": 125,
+    "rateBot": 495,
+    "rateHalf": 0,
+    "rateNips": 125
+  },
+  {
+    "name": "MAHARANI MAHANSAR SOMRAS HERITAGE MALT EDITION",
+    "cat": "other",
+    "mrpBot": 1615,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1615,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "MAHARANI MAHANSAR SONF (PREMIUM)",
+    "cat": "other",
+    "mrpBot": 545,
+    "mrpHalf": 0,
+    "mrpNips": 140,
+    "rateBot": 545,
+    "rateHalf": 0,
+    "rateNips": 140
+  },
+  {
+    "name": "MALHAR CLASSIC DRY INDIAN CRAFT GIN",
+    "cat": "gin",
+    "mrpBot": 3580,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 3580,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "MAQINTOSH PREMIUM WHISKY",
+    "cat": "whisky",
+    "mrpBot": 760,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 760,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "MATEUS MEDIUM SWEET ROSE WINE",
+    "cat": "other",
+    "mrpBot": 2750,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2750,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "MC DOWELLS NO.1 DELUXE COLLECTION WHISKY",
+    "cat": "whisky",
+    "mrpBot": 605,
+    "mrpHalf": 305,
+    "mrpNips": 150,
+    "rateBot": 605,
+    "rateHalf": 305,
+    "rateNips": 150
+  },
+  {
+    "name": "MCDOWELLS DOUBLE OAK BARREL WHISKY",
+    "cat": "whisky",
+    "mrpBot": 645,
+    "mrpHalf": 325,
+    "mrpNips": 160,
+    "rateBot": 645,
+    "rateHalf": 325,
+    "rateNips": 160
+  },
+  {
+    "name": "MCDOWELLS NO.1 CELEBRATION XXX RUM--",
+    "cat": "rum",
+    "mrpBot": 475,
+    "mrpHalf": 245,
+    "mrpNips": 125,
+    "rateBot": 475,
+    "rateHalf": 245,
+    "rateNips": 125
+  },
+  {
+    "name": "MCDOWELLS PREMIUM CRANBERRY VODKA",
+    "cat": "vodka",
+    "mrpBot": 820,
+    "mrpHalf": 0,
+    "mrpNips": 205,
+    "rateBot": 820,
+    "rateHalf": 0,
+    "rateNips": 205
+  },
+  {
+    "name": "MCDOWELLS PREMIUM ORANGE VODKA",
+    "cat": "vodka",
+    "mrpBot": 820,
+    "mrpHalf": 0,
+    "mrpNips": 205,
+    "rateBot": 820,
+    "rateHalf": 0,
+    "rateNips": 205
+  },
+  {
+    "name": "MG Estate By Montgras Carmenere Wine",
+    "cat": "other",
+    "mrpBot": 2210,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2210,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "MG Estate By Montgras Pinot Noir Wine",
+    "cat": "other",
+    "mrpBot": 2210,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2210,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "MG Estate By Montgras Sauvignon Blanc Wine",
+    "cat": "other",
+    "mrpBot": 2195,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2195,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "MIDNIGHT BLUES PREMIUM MALT WHISKY",
+    "cat": "whisky",
+    "mrpBot": 605,
+    "mrpHalf": 0,
+    "mrpNips": 145,
+    "rateBot": 605,
+    "rateHalf": 0,
+    "rateNips": 145
+  },
+  {
+    "name": "MONTE PACIFICO CHARDONNAY",
+    "cat": "other",
+    "mrpBot": 1805,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1805,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "MONTE PACIFICO MERLOT",
+    "cat": "other",
+    "mrpBot": 1805,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1805,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "MORPHEUS BLUE XO SUPERIOR BRANDY",
+    "cat": "other",
+    "mrpBot": 1385,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1385,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "MORPHEUS ULTRA LUXURY WHISKY",
+    "cat": "whisky",
+    "mrpBot": 1400,
+    "mrpHalf": 700,
+    "mrpNips": 350,
+    "rateBot": 1400,
+    "rateHalf": 700,
+    "rateNips": 350
+  },
+  {
+    "name": "MORPHEUS XO BLENDED PREMIUM BRANDY",
+    "cat": "other",
+    "mrpBot": 1030,
+    "mrpHalf": 515,
+    "mrpNips": 260,
+    "rateBot": 1030,
+    "rateHalf": 515,
+    "rateNips": 260
+  },
+  {
+    "name": "MOUNTAIN OAK PREMIER GRAIN WHISKY",
+    "cat": "whisky",
+    "mrpBot": 645,
+    "mrpHalf": 325,
+    "mrpNips": 155,
+    "rateBot": 645,
+    "rateHalf": 325,
+    "rateNips": 155
+  },
+  {
+    "name": "Maqintosh Silver Edition Whisky",
+    "cat": "whisky",
+    "mrpBot": 1290,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1290,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Marquise De Pompadour",
+    "cat": "other",
+    "mrpBot": 1475,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 1475,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Mcdowells Premium Citron Rum",
+    "cat": "rum",
+    "mrpBot": 960,
+    "mrpHalf": 0,
+    "mrpNips": 240,
+    "rateBot": 960,
+    "rateHalf": 0,
+    "rateNips": 240
+  },
+  {
+    "name": "Mcdowells Premium Dark Rum",
+    "cat": "rum",
+    "mrpBot": 820,
+    "mrpHalf": 0,
+    "mrpNips": 205,
+    "rateBot": 820,
+    "rateHalf": 0,
+    "rateNips": 205
+  },
+  {
+    "name": "Mcdowells Premium Dry Gin",
+    "cat": "gin",
+    "mrpBot": 1075,
+    "mrpHalf": 0,
+    "mrpNips": 270,
+    "rateBot": 1075,
+    "rateHalf": 0,
+    "rateNips": 270
+  },
+  {
+    "name": "Mcdowells Premium Vodka",
+    "cat": "vodka",
+    "mrpBot": 820,
+    "mrpHalf": 0,
+    "mrpNips": 205,
+    "rateBot": 820,
+    "rateHalf": 0,
+    "rateNips": 205
+  },
+  {
+    "name": "Michel Lynch AOC Bordeaux Rouge",
+    "cat": "other",
+    "mrpBot": 4530,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 4530,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Monte Pacifico Reserva Pinot Noir",
+    "cat": "other",
+    "mrpBot": 2890,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2890,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Montgras Day One Cabernet Sauvignon Wine",
+    "cat": "other",
+    "mrpBot": 3700,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 3700,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Montgras Day One Chardonnay Wine",
+    "cat": "other",
+    "mrpBot": 3700,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 3700,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Morgan Bay Cellars Chardonnay Wine",
+    "cat": "other",
+    "mrpBot": 4010,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 4010,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Mosaic Red Wine",
+    "cat": "other",
+    "mrpBot": 715,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 715,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Moulin De Gassac Chardonnay Wine",
+    "cat": "other",
+    "mrpBot": 2910,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2910,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Moulin De Gassac Guilhem Rose Wine",
+    "cat": "other",
+    "mrpBot": 2890,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 2890,
+    "rateHalf": 0,
+    "rateNips": 0
+  },
+  {
+    "name": "Moulin De Gassac Pinot Noir Wine",
+    "cat": "other",
+    "mrpBot": 3690,
+    "mrpHalf": 0,
+    "mrpNips": 0,
+    "rateBot": 3690,
+    "rateHalf": 0,
+    "rateNips": 0
+  }
+]

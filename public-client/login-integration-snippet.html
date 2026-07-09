@@ -1,0 +1,67 @@
+<!--
+  INTEGRATION SNIPPET — paste this near the top of <body> in aims_v14__3_.html,
+  right after the opening <body> tag, BEFORE the existing .nav element.
+
+  It shows a simple login screen until AimsAPI.isLoggedIn() is true, then
+  reveals the rest of the app. Customize styling to match the app's theme.
+-->
+
+<div id="aims-login-overlay" style="
+  position:fixed;inset:0;z-index:5000;display:flex;align-items:center;justify-content:center;
+  background:#f0f4fb;font-family:'Inter',sans-serif;">
+  <div style="background:#fff;border:1px solid #d0daf0;border-radius:14px;padding:32px;width:340px;box-shadow:0 20px 60px rgba(37,99,235,.15)">
+    <h2 style="color:#2563eb;font-size:1.1rem;margin-bottom:18px;text-align:center">AIMS Login</h2>
+    <div style="margin-bottom:12px">
+      <label style="font-size:.7rem;color:#64748b;text-transform:uppercase;letter-spacing:.5px;display:block;margin-bottom:4px">Username</label>
+      <input id="aims-login-user" type="text" placeholder="admin" style="width:100%;padding:9px 12px;border:1px solid #d0daf0;border-radius:7px;font-family:'JetBrains Mono',monospace;font-size:.85rem;outline:none">
+    </div>
+    <div style="margin-bottom:18px">
+      <label style="font-size:.7rem;color:#64748b;text-transform:uppercase;letter-spacing:.5px;display:block;margin-bottom:4px">Password</label>
+      <input id="aims-login-pass" type="password" placeholder="••••••••" style="width:100%;padding:9px 12px;border:1px solid #d0daf0;border-radius:7px;font-family:'JetBrains Mono',monospace;font-size:.85rem;outline:none">
+    </div>
+    <button id="aims-login-btn" style="width:100%;padding:10px;border:none;border-radius:7px;background:#2563eb;color:#fff;font-weight:700;cursor:pointer;font-size:.85rem">Login</button>
+    <div id="aims-login-err" style="color:#dc2626;font-size:.75rem;margin-top:10px;text-align:center;display:none"></div>
+  </div>
+</div>
+
+<script src="api-client.js"></script>
+<script>
+  // Set this to your deployed backend URL, e.g. https://your-api.example.com/api
+  window.AIMS_API_BASE_URL = window.AIMS_API_BASE_URL || 'http://localhost:5000/api';
+
+  function aimsShowApp() {
+    document.getElementById('aims-login-overlay').style.display = 'none';
+  }
+
+  // If a token already exists, verify it's still valid before showing the app
+  (async function aimsBootAuth() {
+    if (AimsAPI.isLoggedIn()) {
+      try {
+        await AimsAPI.me();
+        aimsShowApp();
+        return;
+      } catch {
+        AimsAPI.logout(); // token expired/invalid
+      }
+    }
+  })();
+
+  document.getElementById('aims-login-btn').addEventListener('click', async () => {
+    const username = document.getElementById('aims-login-user').value.trim();
+    const password = document.getElementById('aims-login-pass').value;
+    const errEl = document.getElementById('aims-login-err');
+    errEl.style.display = 'none';
+    try {
+      await AimsAPI.login(username, password);
+      aimsShowApp();
+    } catch (e) {
+      errEl.textContent = e.message || 'Login failed';
+      errEl.style.display = 'block';
+    }
+  });
+
+  // Allow Enter key to submit
+  document.getElementById('aims-login-pass').addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') document.getElementById('aims-login-btn').click();
+  });
+</script>
