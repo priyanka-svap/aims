@@ -24,6 +24,12 @@ const ocrRoutes = require('./routes/ocr');
 
 const app = express();
 
+// Render (aur zyadatar free hosts) ek reverse proxy ke peeche app chalate hain, isliye
+// Express ko batana zaroori hai ki proxy ka 'X-Forwarded-For' header trust karo — warna
+// express-rate-limit har request par ERR_ERL_UNEXPECTED_X_FORWARDED_FOR error deta rehta hai
+// aur real client IP sahi se pehchaan nahi paata.
+app.set('trust proxy', 1);
+
 // ── Security & utility middleware ──
 app.use(helmet());
 // Gzips every JSON response before it goes over the wire — the /api/bootstrap endpoint alone
