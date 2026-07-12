@@ -123,6 +123,64 @@ exports.update = async (req, res) => {
   }
 };
 
+// PUT /api/inventory/bulk  — upsert many BrandRate rows in ONE round-trip, keyed by {name, shop}.
+// Body: { items: [ {name, shop, cat, bot, half, nips, active}, ... ] }
+// Added because the Shop Edit "Save Changes" flow used to fire one HTTP request per brand
+// (a shop with 50+ brands meant 50+ sequential/batched round-trips, each paying full HTTP +
+// Mongo-connection overhead) — this collapses the whole save into a single MongoDB bulkWrite.
+exports.bulkUpsert = async (req, res) => {
+  try {
+    const items = Array.isArray(req.body.items) ? req.body.items : [];
+    if (!items.length) {
+      return res.status(400).json({ success: false, message: 'items array required' });
+    }
+    if (items.length > 500) {
+      return res.status(400).json({ success: false, message: 'Max 500 items per bulk request' });
+    }
+
+    const now = new Date();
+    const ops = items
+      .map((it) => {
+        const name = (it.name || '').trim();
+        const shop = (it.shop || '').trim();
+        if (!name || !shop) return null;
+        const set = { cat: it.cat || 'whisky' };
+        if (it.bot !== undefined) set.bot = Number(it.bot) || 0;
+        if (it.half !== undefined) set.half = Number(it.half) || 0;
+        if (it.nips !== undefined) set.nips = Number(it.nips) || 0;
+        if (it.active !== undefined) {
+          // Bulk mode can't cheaply read each doc's previous active state first, so unlike the
+          // single-item PUT this stamps disabledAt on every active:false item (not just actual
+          // transitions) — a minor accuracy trade-off for the speed win.
+          set.active = !!it.active;
+          set.disabledAt = set.active ? null : now;
+        }
+        return {
+          updateOne: {
+            filter: { name, shop },
+            update: { $set: set, $setOnInsert: { name, shop } },
+            upsert: true,
+          },
+        };
+      })
+      .filter(Boolean);
+
+    if (!ops.length) {
+      return res.status(400).json({ success: false, message: 'No valid items (name/shop required)' });
+    }
+
+    const result = await BrandRate.bulkWrite(ops, { ordered: false });
+    res.json({
+      success: true,
+      matched: result.matchedCount,
+      modified: result.modifiedCount,
+      upserted: result.upsertedCount,
+    });
+  } catch (err) {
+    res.status(500).json({ success: false, message: 'Bulk upsert failed', error: err.message });
+  }
+};
+
 // PATCH /api/inventory/:id/stock  (adjust stock quantities, e.g. after inward/outward)
 exports.adjustStock = async (req, res) => {
   try {
