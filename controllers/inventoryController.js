@@ -167,7 +167,7 @@ exports.lowStock = async (req, res) => {
       $expr: {
         $lt: [{ $add: ['$stock.bot', '$stock.half', '$stock.nips'] }, threshold],
       },
-    }).sort({ shop: 1, name: 1 });
+    }).sort({ shop: 1, name: 1 }).lean();
     res.json({ success: true, count: items.length, data: items });
   } catch (err) {
     res.status(500).json({ success: false, message: 'Failed to fetch low stock items', error: err.message });

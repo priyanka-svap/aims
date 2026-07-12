@@ -1,5 +1,10 @@
 const jwt = require('jsonwebtoken');
 const User = require('../models/User');
+const { invalidateUserCache } = require('../middleware/auth');
+
+function safeUser(u) {
+  return { id: u._id, username: u.username, name: u.name, role: u.role, active: u.active, createdAt: u.createdAt };
+}
 
 function signToken(user) {
   return jwt.sign(
@@ -66,7 +71,7 @@ exports.login = async (req, res) => {
 
 // GET /api/auth/me
 exports.me = async (req, res) => {
-  res.json({ success: true, user: req.user.toSafeJSON() });
+  res.json({ success: true, user: safeUser(req.user) });
 };
 
 // POST /api/auth/change-password
@@ -88,6 +93,7 @@ exports.changePassword = async (req, res) => {
 
     user.password = newPassword;
     await user.save();
+    invalidateUserCache(user._id);
     res.json({ success: true, message: 'Password changed successfully' });
   } catch (err) {
     res.status(500).json({ success: false, message: 'Failed to change password', error: err.message });
