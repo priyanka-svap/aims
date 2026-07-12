@@ -21,6 +21,8 @@ const circleRoutes = require('./routes/circle');
 const bootstrapRoutes = require('./routes/bootstrap');
 const brandsRoutes = require('./routes/brands');
 const ocrRoutes = require('./routes/ocr');
+const accHeadsRoutes = require('./routes/accHeads');
+const accEntriesRoutes = require('./routes/accEntries');
 
 const app = express();
 
@@ -73,6 +75,11 @@ app.use('/api/circle', circleRoutes);
 app.use('/api/bootstrap', bootstrapRoutes);
 app.use('/api/brands', brandsRoutes);
 app.use('/api/ocr', ocrRoutes);
+// Chart-of-accounts (P&L / Balance Sheet) — named ledger heads + dated transactions against
+// them, kept separate from /api/ledger (which is actually the inventory inward/outward/sales
+// movement log, an unrelated older naming choice).
+app.use('/api/acc-heads', accHeadsRoutes);
+app.use('/api/acc-entries', accEntriesRoutes);
 
 // 404 handler
 app.use((req, res) => {
