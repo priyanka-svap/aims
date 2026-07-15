@@ -50,6 +50,27 @@ exports.update = async (req, res) => {
   }
 };
 
+// DELETE /api/brands/bulk  — delete many brands in ONE round-trip.
+// Body: { ids: [...] }
+// Added because the Brands page's "Delete Selected" / "Saaf Karo" (cleanup) actions used to
+// fire one DELETE request per brand — slow and easy to partially fail for large selections.
+exports.bulkRemove = async (req, res) => {
+  try {
+    const ids = Array.isArray(req.body.ids) ? req.body.ids : [];
+    if (!ids.length) {
+      return res.status(400).json({ success: false, message: 'ids array required' });
+    }
+    if (ids.length > 500) {
+      return res.status(400).json({ success: false, message: 'Max 500 ids per bulk request' });
+    }
+    const validIds = ids.filter((id) => /^[0-9a-f]{24}$/i.test(id));
+    const result = await MasterBrand.deleteMany({ _id: { $in: validIds } });
+    res.json({ success: true, deleted: result.deletedCount });
+  } catch (err) {
+    res.status(500).json({ success: false, message: 'Bulk delete failed', error: err.message });
+  }
+};
+
 // DELETE /api/brands/:id
 exports.remove = async (req, res) => {
   try {

@@ -6,10 +6,13 @@ const brandRateSchema = new mongoose.Schema(
   {
     name: { type: String, required: true, trim: true },
     shop: { type: String, required: true, trim: true }, // shop id e.g. 'rora' | 'main' | 'circle' or custom
+    // Shop Edit / Brand Rate forms now only ever pick from english/beer/desi (see
+    // aims_v20_db.html _catToBucket) — older finer-grained values stay valid so existing rows
+    // don't fail validation on their next unrelated save.
     cat: {
       type: String,
-      enum: ['whisky', 'rum', 'beer', 'gin', 'vodka', 'desi', 'other'],
-      default: 'whisky',
+      enum: ['english', 'whisky', 'rum', 'beer', 'gin', 'vodka', 'desi', 'other'],
+      default: 'english',
     },
     bot: { type: Number, default: 0, min: 0 },   // bottle rate
     half: { type: Number, default: 0, min: 0 },  // half rate

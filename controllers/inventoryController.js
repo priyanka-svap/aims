@@ -205,6 +205,26 @@ exports.adjustStock = async (req, res) => {
   }
 };
 
+// DELETE /api/inventory/bulk — delete many BrandRate rows in ONE round-trip.
+// Body: { ids: [...] }
+// Mirrors bulkUpsert above — the garbage-brand cleanup flow used to fire one DELETE per row.
+exports.bulkRemove = async (req, res) => {
+  try {
+    const ids = Array.isArray(req.body.ids) ? req.body.ids : [];
+    if (!ids.length) {
+      return res.status(400).json({ success: false, message: 'ids array required' });
+    }
+    if (ids.length > 500) {
+      return res.status(400).json({ success: false, message: 'Max 500 ids per bulk request' });
+    }
+    const validIds = ids.filter((id) => /^[0-9a-f]{24}$/i.test(id));
+    const result = await BrandRate.deleteMany({ _id: { $in: validIds } });
+    res.json({ success: true, deleted: result.deletedCount });
+  } catch (err) {
+    res.status(500).json({ success: false, message: 'Bulk delete failed', error: err.message });
+  }
+};
+
 // DELETE /api/inventory/:id
 exports.remove = async (req, res) => {
   try {

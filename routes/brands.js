@@ -9,6 +9,8 @@ router.get('/', ctrl.list);
 router.get('/:id', ctrl.getOne);
 router.post('/', requireRole('admin', 'manager'), ctrl.create);
 router.put('/:id', requireRole('admin', 'manager'), ctrl.update);
+// Must be registered BEFORE '/:id' — otherwise Express would match "bulk" as an :id.
+router.delete('/bulk', requireRole('admin'), ctrl.bulkRemove);
 router.delete('/:id', requireRole('admin'), ctrl.remove);
 
 module.exports = router;

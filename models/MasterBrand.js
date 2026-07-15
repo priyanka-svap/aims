@@ -6,7 +6,10 @@ const mongoose = require('mongoose');
 const masterBrandSchema = new mongoose.Schema(
   {
     name: { type: String, required: true, trim: true },
-    cat: { type: String, enum: ['whisky', 'rum', 'beer', 'gin', 'vodka', 'desi', 'other'], default: 'other' },
+    // Brand Add/Edit forms now only ever pick from english/beer/desi (see aims_v20_db.html
+    // _catToBucket) — the older finer-grained values stay valid here so existing brands already
+    // saved with them don't fail validation on their next unrelated save.
+    cat: { type: String, enum: ['english', 'whisky', 'rum', 'beer', 'gin', 'vodka', 'desi', 'other'], default: 'english' },
     mrpBot: { type: Number, default: 0 },
     mrpHalf: { type: Number, default: 0 },
     mrpNips: { type: Number, default: 0 },
