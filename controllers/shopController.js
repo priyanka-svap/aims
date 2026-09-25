@@ -37,6 +37,29 @@ exports.update = async (req, res) => {
   }
 };
 
+// Brand-order-only update — any authenticated user (not just admin) can call this. Dragging
+// brand rows into a custom order is a routine daily-listing action any shop user does, not a
+// shop-management action, so it shouldn't require the admin role that full shop edits need
+// (exports.update below, still admin-only). Previously the frontend called the admin-only PUT
+// for this too, so every drag-and-drop save from a non-admin account silently 403'd — the order
+// looked reordered on screen but never actually reached the DB, so it reverted on refresh and
+// never showed up on any other browser/device.
+exports.updateBrandOrder = async (req, res) => {
+  try {
+    const { brandOrder } = req.body;
+    if (!Array.isArray(brandOrder)) {
+      return res.status(400).json({ success: false, message: 'brandOrder must be an array' });
+    }
+    const shop = await Shop.findById(req.params.id);
+    if (!shop) return res.status(404).json({ success: false, message: 'Shop not found' });
+    shop.brandOrder = brandOrder;
+    await shop.save();
+    res.json({ success: true, data: shop });
+  } catch (err) {
+    res.status(500).json({ success: false, message: 'Failed to save brand order', error: err.message });
+  }
+};
+
 exports.remove = async (req, res) => {
   try {
     const shop = await Shop.findById(req.params.id);
