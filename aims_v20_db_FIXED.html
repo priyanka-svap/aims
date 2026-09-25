@@ -903,6 +903,8 @@ function aimsLogout(){
     <button id="rora-save-summary-btn" onclick="saveRoraSummary()" style="display:flex;align-items:center;gap:7px;padding:8px 20px;border-radius:8px;background:var(--accent);color:#fff;border:none;font-size:.78rem;font-weight:700;cursor:pointer;font-family:var(--ff);box-shadow:0 2px 8px rgba(37,99,235,.3);transition:.15s" onmouseover="this.style.background='var(--accent2)'" onmouseout="this.style.background='var(--accent)'">💾 Save Summary</button>
   </div>
 
+  <div id="rora-dcs-status" style="display:none;margin-bottom:10px;padding:7px 12px;border-radius:7px;font-size:.74rem;font-weight:600"></div>
+
   <div style="display:grid;grid-template-columns:220px 1fr 220px;gap:12px;align-items:start">
 
     <!-- ── SALES BREAKDOWN ── -->
@@ -4991,6 +4993,19 @@ function _roraSaleBucket(name){
 function renderRoraDailySummary(day){
   const sw = document.getElementById('rora-summary-wrap');
   if(!sw) return;
+
+  // Same cashData load-state guard as the Nokha/dynamic-shop widget (dcsRender) — see the
+  // _cashData* flags set in loadAccounts()/aimsLoadFromBackend() and _dcsRefreshVisible().
+  const loggedIn = typeof AimsAPI!=='undefined' && AimsAPI.isLoggedIn();
+  const stillLoading = loggedIn && window._cashDataLoading && !window._cashDataReady;
+  const loadFailed = loggedIn && window._cashDataError && !window._cashDataReady && !stillLoading;
+  const statusEl = document.getElementById('rora-dcs-status');
+  if(statusEl){
+    if(stillLoading){ statusEl.style.display='block'; statusEl.style.background='#eff6ff'; statusEl.style.color='#2563eb'; statusEl.textContent='⏳ Saved expenses load ho rahe hain…'; }
+    else if(loadFailed){ statusEl.style.display='block'; statusEl.style.background='#fee2e2'; statusEl.style.color='#dc2626'; statusEl.textContent='⚠️ Saved expenses load nahi ho paye — page refresh karke dobara try karein.'; }
+    else { statusEl.style.display='none'; }
+  }
+
   let eng=0, beer=0, desi=0;
   (WDB.sales||[]).filter(e=>e.date===day).forEach(e=>{
     const bot=e.bot||0, half=e.half||0, nips=e.nips||0;
@@ -5005,6 +5020,11 @@ function renderRoraDailySummary(day){
   window._roraSumTotals = {eng,beer,desi,total};
   const setTxt=(id,v)=>{ const el=document.getElementById(id); if(el) el.textContent='₹'+Math.round(v).toLocaleString(); };
   setTxt('rs-eng',eng); setTxt('rs-beer',beer); setTxt('rs-desi',desi); setTxt('rs-total',total);
+
+  // While the saved expenses are still loading, leave the inputs exactly as they are instead
+  // of blanking them — renderRoraDailySummary() gets called again via _dcsRefreshVisible() once
+  // the fetch resolves, and that re-render is what actually restores/blanks the fields correctly.
+  if(stillLoading){ calcRoraNetCash(); return; }
 
   // Prefill expense/settlement fields from a saved CashAccount row for this date+shop, if one exists.
   // shopExp/breakage/wineExp/monthlyExp now persist as their own fields (see saveRoraSummary) —
@@ -8026,6 +8046,26 @@ function filterOutward(){ renderOutwardTable(); }
 let cashData = [];
 function saveCashData(){ /* no-op: data always loads from backend on login */ }
 
+// -- cashData load state, used by the Daily Cash Summary widgets (Nokha/Warehouse/dynamic
+// shops) so they can show a loader while the saved expenses are still in flight instead of
+// rendering blank/0 and letting the user believe nothing was ever saved. See dcsRender() /
+// renderRoraDailySummary() and their loading banners.
+window._cashDataLoading = false; // true while a cashData fetch (bootstrap or loadAccounts) is in flight
+window._cashDataReady   = false; // true once cashData has been populated at least once from the backend
+window._cashDataError   = false; // true if the most recent load attempt failed
+// Re-renders whichever Daily Cash Summary widget(s) are currently on screen. Called after
+// cashData finishes loading (success or failure) so a widget that painted while data was still
+// loading gets refreshed instead of staying stuck showing stale/blank fields.
+function _dcsRefreshVisible(){
+  try{
+    if(typeof window._roraSumDay==='string' && document.getElementById('rora-summary-wrap') && typeof renderRoraDailySummary==='function') renderRoraDailySummary(window._roraSumDay);
+    Object.keys(window._dcsState||{}).forEach(prefix=>{
+      const day = window._dcsState[prefix]?.day;
+      if(day && typeof dcsRender==='function') dcsRender(prefix, day);
+    });
+  }catch(e){ console.warn('[AIMS] _dcsRefreshVisible failed:', e.message); }
+}
+
 // Real display name for any shop's CashAccount rows — the Accounts table used to hardcode a
 // binary "Warehouse" vs "Main Shop" label (r.shop==='warehouse'?'Warehouse':'Main Shop'), so
 // Circle and any dynamic/custom shop's rows all got mislabeled "Main Shop" too. This looks the
@@ -8087,6 +8127,7 @@ function _rowToApiAcc(r){
 async function loadAccounts(){
   // If logged in, fetch from DB first
   if(typeof AimsAPI!=='undefined' && AimsAPI.isLoggedIn()){
+    window._cashDataLoading = true;
     try{
       const from = document.getElementById('acc-from')?.value||'';
       const to   = document.getElementById('acc-to')?.value||'';
@@ -8097,10 +8138,22 @@ async function loadAccounts(){
       const rows = (res.data||res||[]).map(_apiAccToRow);
       // Always replace cashData from backend (backend is source of truth)
       cashData = rows;
+      window._cashDataReady = true;
+      window._cashDataError = false;
     } catch(e){
       console.warn('[AIMS] accounts load from DB failed:', e.message);
+      // Don't silently swallow this — the Daily Cash Summary widgets check _cashDataError to
+      // show a "load failed, refresh karein" banner instead of quietly rendering blank/0
+      // expense fields that look identical to "nothing was ever saved".
+      window._cashDataError = true;
+    } finally {
+      window._cashDataLoading = false;
     }
   }
+  // Whichever Daily Cash Summary widget (Nokha/Warehouse/dynamic shop) is currently on screen
+  // may have painted before this fetch resolved — refresh it now with the real data (or the
+  // loading/error banner) instead of leaving it stuck on its first, possibly-blank render.
+  if(typeof _dcsRefreshVisible==='function') _dcsRefreshVisible();
   const from = document.getElementById('acc-from').value;
   const to = document.getElementById('acc-to').value;
   let data = cashData.slice().sort((a,b)=>a.date.localeCompare(b.date));
@@ -11343,6 +11396,7 @@ function _dcsHtml(prefix, saveCall){
     </div>
     <button id="${prefix}-save-btn" onclick="${saveCall}" style="display:flex;align-items:center;gap:7px;padding:8px 20px;border-radius:8px;background:var(--accent);color:#fff;border:none;font-size:.78rem;font-weight:700;cursor:pointer;font-family:var(--ff);box-shadow:0 2px 8px rgba(37,99,235,.3)">💾 Save Summary</button>
   </div>
+  <div id="${prefix}-dcs-status" style="display:none;margin-bottom:10px;padding:7px 12px;border-radius:7px;font-size:.74rem;font-weight:600"></div>
   <div style="display:grid;grid-template-columns:220px 1fr 220px;gap:12px;align-items:start">
     <div style="background:var(--s1);border:1px solid var(--border);border-radius:10px;overflow:hidden;box-shadow:0 1px 4px rgba(37,99,235,.06)">
       <div style="background:linear-gradient(135deg,#059669,#10b981);padding:10px 14px">
@@ -11440,6 +11494,22 @@ function dcsRender(prefix, day){
   if(!wrap.dataset.built){ wrap.innerHTML=_dcsHtml(prefix, `dcsSave('${prefix}')`); wrap.dataset.built='1'; }
   wrap.style.display='block';
   const sd = document.getElementById(prefix+'-day'); if(sd) sd.textContent=day;
+
+  // Saved expenses (cashData) load asynchronously and can still be in flight the first time
+  // this widget paints (Sales Breakdown comes from NDB/WDB, which load separately). Show a
+  // loading/error banner instead of silently prefilling the expense inputs as blank/0, so a
+  // slow or failed load doesn't look identical to "nothing was ever saved" — see _cashData*
+  // flags set in loadAccounts()/aimsLoadFromBackend() and _dcsRefreshVisible().
+  const loggedIn = typeof AimsAPI!=='undefined' && AimsAPI.isLoggedIn();
+  const stillLoading = loggedIn && window._cashDataLoading && !window._cashDataReady;
+  const loadFailed = loggedIn && window._cashDataError && !window._cashDataReady && !stillLoading;
+  const statusEl = document.getElementById(prefix+'-dcs-status');
+  if(statusEl){
+    if(stillLoading){ statusEl.style.display='block'; statusEl.style.background='#eff6ff'; statusEl.style.color='#2563eb'; statusEl.textContent='⏳ Saved expenses load ho rahe hain…'; }
+    else if(loadFailed){ statusEl.style.display='block'; statusEl.style.background='#fee2e2'; statusEl.style.color='#dc2626'; statusEl.textContent='⚠️ Saved expenses load nahi ho paye — page refresh karke dobara try karein.'; }
+    else { statusEl.style.display='none'; }
+  }
+
   let eng=0, beer=0, desi=0;
   (ctx.salesGetter()||[]).filter(e=>e.date===day).forEach(e=>{
     const bot=e.bot||0, half=e.half||0, nips=e.nips||0;
@@ -11453,6 +11523,12 @@ function dcsRender(prefix, day){
   window._dcsState[prefix] = {day, totals:{eng,beer,desi,total}};
   const setTxt=(id,v)=>{ const el=document.getElementById(id); if(el) el.textContent='₹'+Math.round(v).toLocaleString(); };
   setTxt(prefix+'-eng',eng); setTxt(prefix+'-beer',beer); setTxt(prefix+'-desi',desi); setTxt(prefix+'-total',total);
+
+  // While the saved expenses are still loading, leave the inputs exactly as they are instead
+  // of blanking them — dcsRender() gets called again via _dcsRefreshVisible() once the fetch
+  // resolves, and that re-render is what actually restores/blanks the fields correctly.
+  if(stillLoading){ dcsCalcNetCash(prefix); return; }
+
   // shopExp/breakage/wineExp/monthlyExp/otherAmt each now have their own CashAccount field (see
   // the model + saveRoraSummary notes) — restore every one of them individually instead of
   // blanking them, which is what made the expense breakdown look like it never saved at all.
@@ -11894,8 +11970,18 @@ async function aimsLoadFromBackend(){
   }
 
   // ── cashData (Accounts) — use _apiAccToRow for correct field mapping ──
-  if(Array.isArray(d.accounts)){
-    cashData = d.accounts.map(a => _apiAccToRow(a));
+  // NOTE: bootstrapController.js sends this key as `cashAccounts` (see exports.getAll in
+  // controllers/bootstrapController.js) — this used to read `d.accounts`, which is always
+  // undefined, so cashData never actually got populated from the bootstrap payload. The Daily
+  // Cash Summary widgets (Nokha/Warehouse) would then render against cashData still at its
+  // initial empty array, showing every expense field as blank/0 on every page refresh even
+  // though the row was sitting in MongoDB the whole time. This was the actual bug behind
+  // expenses "disappearing" on reload while the Sales Breakdown (loaded separately from
+  // NDB/WDB) kept showing correctly.
+  if(Array.isArray(d.cashAccounts)){
+    cashData = d.cashAccounts.map(a => _apiAccToRow(a));
+    window._cashDataReady = true;
+    window._cashDataError = false;
   }
 
   // ── CDB (Circle) — bootstrap already fetches parties/brands/sheets/outward server-side

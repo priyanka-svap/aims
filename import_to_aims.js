@@ -39,7 +39,7 @@ const fs = require('fs');
 const path = require('path');
 
 // -- Configuration -----------------------------------------------------------
-const API_BASE = process.env.AIMS_API_BASE || 'https://aims-luqe.onrender.com/api';
+const API_BASE = process.env.AIMS_API_BASE|| 'http://localhost:5000/api';
 const USERNAME = process.env.AIMS_USERNAME || 'admin';
 const PASSWORD = process.env.AIMS_PASSWORD || 'admin123';
 const CSV_PATH = process.env.CSV_PATH || path.join(__dirname, 'aims_transcription.csv');
@@ -57,7 +57,9 @@ const SHOP_STORE_ID = {
 const KHARADIYA_SHOP = {
   slug: 'kharadiya',
   name: 'Kharadiya',
-  type: 'warehouse', // matches the "Module Type: Warehouse/Circle" restriction in the app
+  // Shop.type in the backend only accepts english/beer/desi/mixed (NOT warehouse/circle -
+  // that's a separate frontend-only "Module Type" field). Kharadiya sells all 3 categories.
+  type: 'mixed',
   location: 'Rani Gaon, Khardiya',
   manager: 'Govind Singh',
 };

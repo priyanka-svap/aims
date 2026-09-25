@@ -25,8 +25,10 @@ exports.update = async (req, res) => {
   try {
     const shop = await Shop.findById(req.params.id);
     if (!shop) return res.status(404).json({ success: false, message: 'Shop not found' });
-    ['name', 'type', 'location', 'manager', 'active'].forEach((f) => {
-      if (req.body[f] !== undefined) shop[f] = req.body[f];
+    ['name', 'type', 'location', 'manager', 'active', 'brandOrder'].forEach((f) => {
+      if (req.body[f] === undefined) return;
+      if (f === 'brandOrder' && !Array.isArray(req.body[f])) return; // never overwrite with junk
+      shop[f] = req.body[f];
     });
     await shop.save();
     res.json({ success: true, data: shop });
